@@ -21,16 +21,13 @@ class Recipe extends React.Component{
                     <span className="recipe__info-text"> minutes</span>
                 </div>
                 <div className="recipe__info">
-                    <SVGIcon className="recipe__info-icon" name="icon-man"/>
+                    <SVGIcon className="recipe__info-icon" name="man"/>
                     <span className="recipe__info-data recipe__info-data--people">4</span>
                     <span className="recipe__info-text"> servings</span>
 
                     <div className="recipe__info-buttons">
                         <button className="btn-tiny">
-                        <SVGIcon name="icon-circle-with-minus"/>
-                            <svg>
-                                <use href="img/icons.svg#icon-circle-with-minus"></use>
-                            </svg>
+                            <SVGIcon name="circle-with-minus"/>
                         </button>
                         <button className="btn-tiny">
                             <SVGIcon name="circle-with-plus"/>
@@ -39,20 +36,15 @@ class Recipe extends React.Component{
 
                 </div>
                 <button className="recipe__love">
-                <SVGIcon className="recipe__info-icon" name="stopwatch"/>
-                    <svg className="header__likes">
-                        <use href="img/icons.svg#icon-heart-outlined"></use>
-                    </svg>
+                    <SVGIcon className="header__likes" name="heart-outlined"/>
+                    
                 </button>
             </div>
 
             <div className="recipe__ingredients">
                 <ul className="recipe__ingredient-list">
                     <li className="recipe__item">
-                    <SVGIcon className="recipe__info-icon" name="stopwatch"/>
-                        <svg className="recipe__icon">
-                            <use href="img/icons.svg#icon-check"></use>
-                        </svg>
+                        <SVGIcon className="recipe__icon" name="check"/>  
                         <div className="recipe__count">1000</div>
                         <div className="recipe__ingredient">
                             <span className="recipe__unit">g</span>
@@ -77,7 +69,6 @@ class Recipe extends React.Component{
                             can of tomatoes, whole or crushed
                         </div>
                     </li>
-
 
                     <li className="recipe__item">
                         <SVGIcon className="recipe__icon" name="check"/>
@@ -119,7 +110,7 @@ class Recipe extends React.Component{
                     This recipe was carefully designed and tested by
                     <span className="recipe__by">The Pioneer Woman</span>. Please check out directions at their website.
                 </p>
-                <a className="btn-small recipe__btn" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" target="_blank">
+                <a className="btn-small recipe__btn" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" >
                     <span>Directions</span>
                     <SVGIcon className="search__icon" name="triangle-right"/>
                 </a>
