@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import logo from '../../assets/logo.png'
 import SVGIcon from '../SVGIcon.js';
 import Likes from '../Likes/Likes.js'
-import './Header.css';
+import '../../index.css';
 
 class Header extends Component{
     constructor(props){

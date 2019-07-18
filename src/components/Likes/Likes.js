@@ -1,5 +1,5 @@
 import React from 'react';
-import './Likes.css';
+import '../../index.css';
 import SVGIcon from '../SVGIcon.js';
 import testImage from '../../assets/test-1.jpg'
 
