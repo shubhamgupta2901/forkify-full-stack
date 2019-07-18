@@ -1,0 +1,92 @@
+.header {
+    grid-area: head;
+    background-color: #F9F5F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}.header__logo {
+    margin-left: 4rem;
+    height: 4.5rem;
+    display: block; }
+
+    .btn, .btn-small, .btn-small:link, .btn-small:visited {
+        background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+        border-radius: 10rem;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: all .2s; }
+        .btn:hover, .btn-small:hover {
+          transform: scale(1.05); }
+        .btn:focus, .btn-small:focus {
+          outline: none; }
+        .btn > *:first-child, .btn-small > *:first-child {
+          margin-right: 1rem; }
+      
+      .btn {
+        padding: 1.3rem 3rem;
+        font-size: 1.4rem; }
+        .btn svg {
+          height: 2.25rem;
+          width: 2.25rem;
+          fill: currentColor; }
+
+.search {
+    background-color: #fff;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all .3s; }
+    .search:focus-within {
+        transform: translateY(-2px);
+        box-shadow: 0 0.7rem 3rem rgba(101, 90, 86, 0.08); }
+    .search__field {
+        border: none;
+        background: none;
+        font-family: inherit;
+        color: inherit;
+        font-size: 1.7rem;
+        width: 30rem; }
+        .search__field:focus {
+        outline: none; }
+        .search__field::placeholder {
+        color: #DAD0CC; }
+
+        .likes {
+            position: relative;
+            align-self: stretch;
+            padding: 0 !important; }
+            .likes__field {
+              cursor: pointer;
+              padding: 0 4rem;
+              display: flex;
+              align-items: center;
+              height: 100%;
+              transition: all .3s; }
+              .likes__field:hover {
+                background-color: #F2EFEE; }
+            .likes__panel:hover,
+            .likes__field:hover + .likes__panel {
+              visibility: visible;
+              opacity: 1; }
+            .likes__icon {
+              fill: #F59A83;
+              height: 3.75rem;
+              width: 3.75rem; }
+            .likes__panel {
+              position: absolute;
+              right: 0;
+              top: 10rem;
+              z-index: 10;
+              padding: 2rem 0;
+              width: 34rem;
+              background-color: #fff;
+              box-shadow: 0 0.8rem 5rem 2rem rgba(101, 90, 86, 0.1);
+              visibility: hidden;
+              opacity: 0;
+              transition: all .5s .2s; }
+
