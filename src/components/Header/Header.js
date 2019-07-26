@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import logo from '../../assets/logo.png'
 import SVGIcon from '../SVGIcon.js';
 import Likes from '../Likes/Likes.js'
-import '../../index.css';
+import styles from './Header.module.css';
 
 class Header extends Component{
     constructor(props){
@@ -12,10 +12,10 @@ class Header extends Component{
 
     render(){
         return(
-            <div className="header">
-                <img src={logo} alt="Logo" className="header__logo"/>
-                <form className="search">
-                    <input type="text" className="search__field" placeholder="Search over 1,000,000 recipes..."/>
+            <div className={styles.header}>
+                <img src={logo} alt="Logo" className={styles.header__logo}/>
+                <form className={styles.search}>
+                    <input type="text" className={styles.search__field} placeholder="Search over 1,000,000 recipes..."/>
                     <button className="btn search__btn">
                         <SVGIcon name="magnifying-glass" className="search__icon"/>
                         <span>Search</span>
