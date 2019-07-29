@@ -1,9 +1,16 @@
 import React from 'react';
 import '../../index.css';
 import SVGIcon from '../SVGIcon.js';
-import testImage from '../../assets/test-1.jpg'
+import Like from './Like';
+import * as Utils from '../../utils/Utils';
 
 class Likes extends React.Component{
+    renderLikedRecipes = () =>{
+        const likes = [];
+        for(let i =0; i<2; i++)
+            likes.push(<Like key={Utils.generateRandomId()}/>)
+        return likes;
+    }
     render(){
         return(
             <div className="likes">
@@ -12,17 +19,7 @@ class Likes extends React.Component{
                 </div>
                 <div className="likes__panel">
                     <ul className="likes__list">
-                        <li>
-                            <a className="likes__link" href="#23456">
-                                <figure className="likes__fig">
-                                    <img src={testImage} alt="Test"/>
-                                </figure>
-                                <div className="likes__data">
-                                    <h4 className="likes__name">Pasta with Tomato ...</h4>
-                                    <p className="likes__author">The Pioneer Woman</p>
-                                </div>
-                            </a>
-                        </li>
+                        {this.renderLikedRecipes()}
                     </ul>
                 </div>
             </div>
