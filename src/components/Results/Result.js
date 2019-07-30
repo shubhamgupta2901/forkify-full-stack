@@ -22,10 +22,16 @@ const limitRecipeTitle = (title,limit = 17) => {
     return `${title.substring(0,limit-1)}...`;
 }
 
+const getClassName = (active) =>{
+    let className = "results__link";
+    if(active)
+        className = className.concat(' results__link--active');
+    return className;
+}
 const result = (props) =>{
     return(
         <li>
-            <a className="results__link results__link" href={`#${props.recipeId}`}>
+            <a className={getClassName(props.active)} href={`#${props.recipeId}`}>
                 <figure className="results__fig">
                     <img src={props.imageUrl} alt="Recipe"/>
                 </figure>
@@ -43,7 +49,8 @@ result.propTypes = {
     recipeName: PropTypes.string.isRequired,
     imageUrl: PropTypes.string,
     publisherName: PropTypes.string.isRequired,
-
+    active: PropTypes.bool,
+    onResultClick: PropTypes.func,
 }
 
 result.defaultProps = {
@@ -51,6 +58,8 @@ result.defaultProps = {
     recipeName: '',
     imageUrl: '',
     publisherName: '',
+    active: false,
+    onResultClick: () => {},
 }
 
 

@@ -12,7 +12,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       isSearching: false,
-      recipes:[]
+      recipes:[],
+      currentRecipe: {}
     }
   }
 
@@ -23,7 +24,12 @@ class App extends React.Component {
       isSearching:false,
       recipes
     })
-  
+  }
+
+  onResultClick = async (recipeId) => {
+    const currentRecipe = await NetworkService.getRecipe(recipeId);
+    console.log(currentRecipe);
+    this.setState({currentRecipe});
   }
 
   render(){
@@ -33,6 +39,7 @@ class App extends React.Component {
         <Results 
           isSearching={this.state.isSearching}
           recipes = {this.state.recipes}
+          onResultClick = {(recipeId) =>this.onResultClick(recipeId)}
         />
         <Recipe/>
         <Shopping/>

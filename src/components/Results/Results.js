@@ -43,6 +43,8 @@ class Results extends React.Component {
         const results = [];  
         recipesToDisplay.forEach(recipe =>{
             results.push(<Result
+                {...this.props}
+                active = {recipe.recipe_id===this.props.currentRecipeId}
                 key = {Utils.generateRandomId()}
                 recipeId = {recipe.recipe_id}
                 recipeName = {recipe.title}
@@ -93,11 +95,13 @@ class Results extends React.Component {
 Results.propTypes = {
     isSearching : PropTypes.bool,
     recipes: PropTypes.arrayOf(PropTypes.object),
+    currentRecipeId: PropTypes.string,
 }
 
 Results.defaultProps = {
     isSearching: false,
     recipes: [],
+    currentRecipeId: ''
 }
 
 export default Results;
