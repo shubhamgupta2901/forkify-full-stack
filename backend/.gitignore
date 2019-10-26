@@ -87,3 +87,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+#config folder
+config
+
+
