@@ -10,8 +10,6 @@ let ingredientSchema = new Schema({
     unit:{
         type: String,
         required: true,
-        default: 'serving',
-
     },
     ingredient:{
         type: String,

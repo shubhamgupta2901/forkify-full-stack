@@ -72,6 +72,8 @@ let recipeSchema = new Schema({
         required: false,
         default: [],
     }
-})
+},{
+    timestamps: true
+});
 
 module.exports = recipeSchema;
