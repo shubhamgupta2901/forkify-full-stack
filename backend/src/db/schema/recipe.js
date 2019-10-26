@@ -23,7 +23,7 @@ let recipeSchema = new Schema({
         type: String,
         required: true,
         trim: true,
-        // validate using regex, type is 15 digit alphanumeric string prefixed by image_ (image_532098dsfalasdf)
+        // validate using regex, type is 15 digit alphanumeric string prefixed by image_ (image_5da9ba113ca4405f3ceb4df1)
     },
     imageType: {
         type: String,
