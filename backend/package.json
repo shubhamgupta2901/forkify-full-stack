@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env node src/index.js"
   },
   "author": "Shubham Gupta",
   "license": "ISC",
@@ -13,5 +14,9 @@
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.7",
     "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "nodemon": "^1.19.4"
   }
 }
