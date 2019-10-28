@@ -38,6 +38,11 @@ let recipeSchema = new Schema({
         type: Number,
         required: true,
     },
+    author: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User',
+    },
     sourceName: {
         type: String,
         required: true,
