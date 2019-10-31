@@ -4,7 +4,7 @@ const validator = require('validator');
 let Schema = mongoose.Schema;
 let ingredientSchema = new Schema({
     quantity:{
-        type: Schema.Types.Decimal128,
+        type: Number,
         required: true,
     },
     unit:{

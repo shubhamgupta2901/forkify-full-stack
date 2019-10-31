@@ -40,7 +40,7 @@ let recipeSchema = new Schema({
     },
     author: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true,
+        required: false,
         ref: 'User',
     },
     sourceName: {

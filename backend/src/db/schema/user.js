@@ -26,16 +26,7 @@ let userSchema = new Schema({
                 throw new Error('Your password can not contain the word password.')
             return true;
         }
-        
     },
-    avatar: {
-        type: Buffer
-    },
-    bookmarkedRecipes: [{
-        type: mongoose.Schema.Types.ObjectId,
-        required: true,
-        ref: 'Recipe'
-    }],
     tokens: [{
         token:{
             type: String,
@@ -45,11 +36,5 @@ let userSchema = new Schema({
 },{
     timestamps: true,
 });
-
-userSchema.virtual('createdRecipes',{
-    ref: 'Recipes',
-    localField:'_id',
-    foreignField: 'author',
-})
 
 module.exports = userSchema;
