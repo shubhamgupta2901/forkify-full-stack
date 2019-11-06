@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
-const ingredientSchema = require('./ingredient');
+const ingredientSchema = require('./ingredientSchema');
 let Schema = mongoose.Schema;
 let recipeSchema = new Schema({
     recipeId:{
