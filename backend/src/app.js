@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.use(routes.recipeRouter);
 app.use(routes.userRouter);
+app.use(routes.publisherRouter);
 
 app.listen(port,()=>{
     console.log(`Forkify server is up and running on port ${port}`);

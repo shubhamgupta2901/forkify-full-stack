@@ -9,9 +9,13 @@ let publisherSchema = new Schema({
         trim: true,
         default: 'Forkify',
     },
-    avatarUrl: {
+    imageUrl: {
         type: String,
         required: false,
-        
+        validate: (value)=> validator.isURL(value),
     }
-})
+},{
+    timestamps: true,
+});
+
+module.exports = publisherSchema;

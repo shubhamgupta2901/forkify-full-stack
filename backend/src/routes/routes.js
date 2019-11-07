@@ -1,10 +1,10 @@
 const recipeRouter = require('./routers/recipeRouter');
 const userRouter = require('./routers/userRouter');
-const routes = { recipeRouter, userRouter};
+const publisherRouter = require('./routers/publisherRouter');
 
-// module.exports = {
-//     recipeRouter,
-//     userRouter
-// }
+module.exports = {
+    recipeRouter,
+    userRouter,
+    publisherRouter
+}
 
-module.exports = routes;
