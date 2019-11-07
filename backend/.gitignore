@@ -89,5 +89,6 @@ typings/
 
 #config folder
 config
+config.dev.env
 
 
