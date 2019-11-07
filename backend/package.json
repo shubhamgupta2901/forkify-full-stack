@@ -11,6 +11,7 @@
   "author": "Shubham Gupta",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.566.0",
     "bcrypt": "^3.0.6",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
