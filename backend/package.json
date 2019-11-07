@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "env-cmd -f ./config/dev.env nodemon src/app.js",
-    "devseed": "env-cmd -f ./config/dev.env node src/jobs/seed.js"
+    "devseed": "env-cmd -f ./config/dev.env node src/jobs/seed.js",
+    "aws-test": "env-cmd -f ./config/dev.env node playground/awstest.js"
   },
   "author": "Shubham Gupta",
   "license": "ISC",
