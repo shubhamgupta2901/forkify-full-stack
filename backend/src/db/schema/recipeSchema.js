@@ -3,49 +3,31 @@ const validator = require('validator');
 const ingredientSchema = require('./ingredientSchema');
 let Schema = mongoose.Schema;
 let recipeSchema = new Schema({
-    recipeId:{
-        type: String,
-        required: true,
-        trim: true,
-    },
     title: {
         type: String,
         required: true,
         trim: true,
     },
-    image: {
+    imageUrl: {
         type: String,
         required: false,
         trim: true,
         validate: (value) => validator.isURL(value),
     },
-    imageId: {
-        type: String,
-        required: true,
-        trim: true,
-        // validate using regex, type is 15 digit alphanumeric string prefixed by image_ (image_5da9ba113ca4405f3ceb4df1)
-    },
-    imageType: {
-        type: String,
-        required: true,
-        trim: true,
-    },
     servings: {
         type: Number,
-        required: true,
+        required: false,
+        default: 2,
     },
     readyInMinutes: {
         type: Number,
-        required: true,
-    },
-    author: {
-        type: mongoose.Schema.Types.ObjectId,
         required: false,
-        ref: 'User',
+        default: 15,
     },
-    sourceName: {
-        type: String,
+    publisher: {
+        type: mongoose.Schema.Types.ObjectId,
         required: true,
+        ref: 'Publisher',
     },
     sourceUrl: {
         type: String,
@@ -60,7 +42,8 @@ let recipeSchema = new Schema({
     },
     datePublished: {
         type: Date,
-        required: true,
+        required: false,
+        default: Date.now(),
     },
     cuisines: {
         type: [String],
@@ -72,9 +55,9 @@ let recipeSchema = new Schema({
         required: false,
         default: [],
     },
-    extraIngredients: {
+    ingredients: {
         type: [ingredientSchema],
-        required: false,
+        required: true,
         default: [],
     }
 },{
