@@ -1,4 +1,4 @@
-const dishType = [
+[
     "cake",
     "bread",
     "soup",
@@ -8,5 +8,5 @@ const dishType = [
     "dessert",
     "breakfast",
     "side dish",
-    "drink",
+    "drink"
 ]
