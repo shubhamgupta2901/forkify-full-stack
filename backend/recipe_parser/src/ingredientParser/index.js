@@ -59,7 +59,7 @@ const parse = (recipeString) =>{
     quantity,
     unit: !!unit ? unit : null,
     ingredient: ingredient,
-    extraInfo: extraInfo ? extraInfo : null,
+    //extraInfo: extraInfo ? extraInfo : null,
   };
 }
 
