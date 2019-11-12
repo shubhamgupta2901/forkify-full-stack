@@ -1,0 +1,3442 @@
+[
+    [
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "cumin seeds",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon cumin seeds"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup extra virgin olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "fresh lemon juice",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons fresh lemon juice"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "honey",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon honey"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine sea salt, plus more to taste",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine sea salt, plus more to taste"
+        },
+        {
+            "quantity": "0.125",
+            "unit": "teaspoon",
+            "ingredient": "cayenne pepper",
+            "extraInfo": null,
+            "originalIngredient": "1/8 teaspoon cayenne pepper"
+        },
+        {
+            "quantity": "10",
+            "unit": "ounce",
+            "ingredient": "carrots, shredded on a box grater or sliced whisper thin on a mandolin",
+            "extraInfo": null,
+            "originalIngredient": "10 ounces carrots, shredded on a box grater or sliced whisper thin on a mandolin"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "cooked chickpeas",
+            "extraInfo": null,
+            "originalIngredient": "2 cups cooked chickpeas (or one 15- ounce can, drained and rinsed)"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "dried pluots, plums, or dates cut into chickpea-sized pieces",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup dried pluots, plums, or dates cut into chickpea-sized pieces"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "30 g fresh mint, torn",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup 30 g fresh mint, torn"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "big dollop of Greek yogurt",
+            "extraInfo": null,
+            "originalIngredient": "1 big dollop of Greek yogurt"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "fresh pomegranate juice",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons fresh pomegranate juice"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "a drizzle of honey",
+            "extraInfo": null,
+            "originalIngredient": "a drizzle of honey"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "a handful of puffed quinoa crisps",
+            "extraInfo": null,
+            "originalIngredient": "a handful of puffed quinoa crisps (or other cereal/granola)"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "sprinkling of toasted sunflower seeds",
+            "extraInfo": null,
+            "originalIngredient": "sprinkling of toasted sunflower seeds"
+        }
+    ],
+    [
+        {
+            "quantity": "4",
+            "unit": "tablespoon",
+            "ingredient": "fresh thyme leaves, stripped from stems",
+            "extraInfo": null,
+            "originalIngredient": "4 tablespoons fresh thyme leaves, stripped from stems (or equivalent dried)"
+        },
+        {
+            "quantity": "2",
+            "unit": "teaspoon",
+            "ingredient": "ground sumac",
+            "extraInfo": null,
+            "originalIngredient": "2 teaspoons ground sumac"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine sea salt, or to taste",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine sea salt, or to taste"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "toasted sesame seeds",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon toasted sesame seeds"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "whole milk",
+            "extraInfo": null,
+            "originalIngredient": "2 cups whole milk"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons unsalted butter"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "unbleached all-purpose flour",
+            "extraInfo": null,
+            "originalIngredient": "2 cups unbleached all-purpose flour"
+        },
+        {
+            "quantity": "1.25",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 1/4 teaspoons fine grain sea salt"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "teaspoon",
+            "ingredient": "baking powder",
+            "extraInfo": null,
+            "originalIngredient": "3/4 teaspoon baking powder"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "raw, uncooked millet seeds",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup raw, uncooked millet seeds"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "toasted sesame seeds*",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons toasted sesame seeds*"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "toasted sunflower seeds*",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons toasted sunflower seeds*"
+        },
+        {
+            "quantity": "5",
+            "unit": null,
+            "ingredient": "large eggs",
+            "extraInfo": null,
+            "originalIngredient": "5 large eggs"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "olive oil or clarified butter",
+            "extraInfo": null,
+            "originalIngredient": "1 tbsp olive oil or clarified butter"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of kale, destemmed, chopped/shredded",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of kale, destemmed, chopped/shredded"
+        },
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "cooked brown rice",
+            "extraInfo": null,
+            "originalIngredient": "3 cups cooked brown rice"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "slice",
+            "ingredient": "country bread, crust removed",
+            "extraInfo": null,
+            "originalIngredient": "1 slice country bread, crust removed"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "aged red vine vinegar",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons aged red vine vinegar"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic, coarsely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 clove garlic, coarsely chopped"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "marjoram leaves",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup marjoram leaves"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "capers, rinsed",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons capers, rinsed"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "pine nuts or walnuts",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cups pine nuts or walnuts"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "finely chopped parsley",
+            "extraInfo": null,
+            "originalIngredient": "1 cup finely chopped parsley"
+        },
+        {
+            "quantity": "10",
+            "unit": null,
+            "ingredient": "pitted green olives",
+            "extraInfo": null,
+            "originalIngredient": "10 pitted green olives"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup olive oil"
+        }
+    ],
+    [
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "stalks celery, very thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "3 stalks celery, very thinly sliced"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "chickpeas , drained/rinsed",
+            "extraInfo": null,
+            "originalIngredient": "1 cup chickpeas (equivalent 14-ounce can), drained/rinsed"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "handfuls arugula or shredded romaine lettuce",
+            "extraInfo": null,
+            "originalIngredient": "3 handfuls arugula or shredded romaine lettuce"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "toasted pepitas or almonds",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup toasted pepitas or almonds"
+        },
+        {
+            "quantity": "15",
+            "unit": null,
+            "ingredient": "black olives, chopped",
+            "extraInfo": null,
+            "originalIngredient": "15 black olives, chopped"
+        },
+        {
+            "quantity": "0.5",
+            "unit": null,
+            "ingredient": "small red onion, finely diced",
+            "extraInfo": null,
+            "originalIngredient": "1/2 small red onion, finely diced"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "small head of broccoli florets, blanched",
+            "extraInfo": null,
+            "originalIngredient": "1 small head of broccoli florets, blanched"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic, smashed",
+            "extraInfo": null,
+            "originalIngredient": "1 clove garlic, smashed"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "white miso",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon white miso"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "mirin",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon mirin"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "brown rice vinegar",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon brown rice vinegar"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "of ground cumin",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch of ground cumin"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "plain yogurt",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup plain yogurt"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "heavy cream, or to taste",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon heavy cream, or to taste"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "small ripe avocado, sliced",
+            "extraInfo": null,
+            "originalIngredient": "1 small ripe avocado, sliced"
+        }
+    ],
+    [
+        {
+            "quantity": "1.25",
+            "unit": "cup",
+            "ingredient": "whole wheat pastry flour",
+            "extraInfo": null,
+            "originalIngredient": "1 1/4 cups whole wheat pastry flour"
+        },
+        {
+            "quantity": "2.25",
+            "unit": "cup",
+            "ingredient": "unbleached all-purpose flour",
+            "extraInfo": null,
+            "originalIngredient": "2 1/4 cups unbleached all-purpose flour"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "firmly packed brown sugar",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup firmly packed brown sugar"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "3/4 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "baking soda",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon baking soda"
+        },
+        {
+            "quantity": "2",
+            "unit": "teaspoon",
+            "ingredient": "baking powder",
+            "extraInfo": null,
+            "originalIngredient": "2 teaspoons baking powder"
+        },
+        {
+            "quantity": "5.5",
+            "unit": "ounce",
+            "ingredient": "mashed, ripe banana",
+            "extraInfo": null,
+            "originalIngredient": "5 1/2 oz mashed, ripe banana"
+        },
+        {
+            "quantity": "240",
+            "unit": "milliliter",
+            "ingredient": "buttermilk",
+            "extraInfo": null,
+            "originalIngredient": "240 ml buttermilk"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "large eggs",
+            "extraInfo": null,
+            "originalIngredient": "3 large eggs"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "vanilla extract",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon vanilla extract"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "unsalted butter, barely melted",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup unsalted butter, barely melted"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "berries, plus more for topping",
+            "extraInfo": null,
+            "originalIngredient": "1 cup berries, plus more for topping"
+        }
+    ],
+    [
+        {
+            "quantity": "4",
+            "unit": null,
+            "ingredient": "scallions, thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "4 scallions, thinly sliced"
+        },
+        {
+            "quantity": "5",
+            "unit": null,
+            "ingredient": "medium shallots, peeled and finely sliced",
+            "extraInfo": null,
+            "originalIngredient": "5 medium shallots, peeled and finely sliced"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "grated, peeled ginger",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons grated, peeled ginger"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "7",
+            "unit": "tablespoon",
+            "ingredient": "good sunflower or olive oil",
+            "extraInfo": null,
+            "originalIngredient": "7 tablespoons good sunflower or olive oil"
+        },
+        {
+            "quantity": "12",
+            "unit": "ounce",
+            "ingredient": "extra-firm tofu",
+            "extraInfo": null,
+            "originalIngredient": "12 ounces extra-firm tofu"
+        },
+        {
+            "quantity": "12",
+            "unit": "ounce",
+            "ingredient": "dried soba noodles",
+            "extraInfo": null,
+            "originalIngredient": "12 ounces dried soba noodles"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "radish, peeled, cut into matchsticks",
+            "extraInfo": null,
+            "originalIngredient": "1 radish, peeled, cut into matchsticks"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "toasted pine nuts",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup toasted pine nuts"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of chives, minced",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of chives, minced"
+        }
+    ],
+    [
+        {
+            "quantity": "32",
+            "unit": "ounce",
+            "ingredient": "plain full-fat yogurt",
+            "extraInfo": null,
+            "originalIngredient": "32 ounces plain full-fat yogurt"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon fine grain sea salt"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "medium clove garlic",
+            "extraInfo": null,
+            "originalIngredient": "1 medium clove garlic"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "buttermilk",
+            "extraInfo": null,
+            "originalIngredient": "1 cup  buttermilk"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "good-quality white wine vinegar",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup good-quality white wine vinegar"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup extra virgin olive oil"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of asparagus, trimmed and cut into 1-Inch segments",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of asparagus, trimmed and cut into 1-Inch segments"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large handful of cooked posole / hominy",
+            "extraInfo": null,
+            "originalIngredient": "1 large handful of cooked posole / hominy (see head notes)"
+        },
+        {
+            "quantity": "10",
+            "unit": "gram",
+            "ingredient": "chopped cilantro",
+            "extraInfo": null,
+            "originalIngredient": "10 gram chopped cilantro"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "organic milk",
+            "extraInfo": null,
+            "originalIngredient": "2 cups organic milk"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "water",
+            "extraInfo": null,
+            "originalIngredient": "2 cups water"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "polenta",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups polenta"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "grated Parmesan cheese",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup grated Parmesan cheese"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "melted clarified butter or olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup melted clarified butter or olive oil"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "egg white",
+            "extraInfo": null,
+            "originalIngredient": "1 egg white"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "natural cane sugar",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup natural cane sugar"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "cayenne pepper",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon cayenne pepper"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grained sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grained sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "fresh pumpkin seeds",
+            "extraInfo": null,
+            "originalIngredient": "1 cup fresh pumpkin seeds"
+        },
+        {
+            "quantity": "2",
+            "unit": "teaspoon",
+            "ingredient": "curry powder",
+            "extraInfo": null,
+            "originalIngredient": "2 teaspoon curry powder"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grained sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grained sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "fresh pumpkin seeds",
+            "extraInfo": null,
+            "originalIngredient": "1 cup fresh pumpkin seeds"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "tea",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon (black) tea"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter, melted",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons unsalted butter, melted"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grained sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grained sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "fresh pumpkin seeds",
+            "extraInfo": null,
+            "originalIngredient": "1 cup fresh pumpkin seeds"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "loaf artisan French bread or wide baguette",
+            "extraInfo": null,
+            "originalIngredient": "1 loaf artisan French bread or wide baguette"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "colve of garlic",
+            "extraInfo": null,
+            "originalIngredient": "1 colve of garlic"
+        },
+        {
+            "quantity": "1",
+            "unit": "stick",
+            "ingredient": "of unsalted butter",
+            "extraInfo": null,
+            "originalIngredient": "1 stick of unsalted butter"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of chives",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of chives (optional)"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "lemon zest",
+            "extraInfo": null,
+            "originalIngredient": "1 lemon zest"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "bread flour",
+            "extraInfo": null,
+            "originalIngredient": "1 cup bread flour (hs note: white whole wheat flour works as well)"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "instant polenta",
+            "extraInfo": null,
+            "originalIngredient": "1 cup instant polenta"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "teaspoon",
+            "ingredient": "fine sea salt",
+            "extraInfo": null,
+            "originalIngredient": "3/4 teaspoon fine sea salt"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "baking soda",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon baking soda"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "cayenne pepper",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon cayenne pepper"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "freshly grated Parmigiano-Reggiano cheese",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup freshly grated Parmigiano-Reggiano cheese"
+        },
+        {
+            "quantity": "2.5",
+            "unit": "tablespoon",
+            "ingredient": "cold unsalted butter, cut into 1/4-inch pieces",
+            "extraInfo": null,
+            "originalIngredient": "2 1/2 tablespoons cold unsalted butter, cut into 1/4-inch pieces"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "buttermilk, shaken to blend",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup buttermilk, shaken to blend"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "can",
+            "ingredient": "water-packed artichokes, well drained",
+            "extraInfo": null,
+            "originalIngredient": "2 (14-ounce) cans water-packed artichokes, well drained"
+        },
+        {
+            "quantity": "4",
+            "unit": "ounce",
+            "ingredient": "organic silken tofu",
+            "extraInfo": null,
+            "originalIngredient": "4 ounces organic silken tofu"
+        },
+        {
+            "quantity": "3",
+            "unit": "clove",
+            "ingredient": "garlic",
+            "extraInfo": null,
+            "originalIngredient": "3 cloves garlic"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "Parmesan cheese, freshly grated",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup Parmesan cheese, freshly grated"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "plain yogurt",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup plain (or Greek) yogurt"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt, or more to taste",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon fine grain sea salt, or more to taste"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "of cayenne pepper",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch of cayenne pepper"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Parmesan to sprinkle on top",
+            "extraInfo": null,
+            "originalIngredient": "Parmesan to sprinkle on top"
+        }
+    ],
+    [
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "semolina flour",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups semolina flour"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "white whole wheat flour",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups white whole wheat flour (or all-purpose flour)"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine-grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine-grain sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "warm water",
+            "extraInfo": null,
+            "originalIngredient": "1 cup warm water"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup extra virgin olive oil"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "peas",
+            "extraInfo": null,
+            "originalIngredient": "2 cups (about 10 ounces) peas (freshly shelled or frozen)"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "ricotta cheese",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup ricotta cheese"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons  olive oil"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "small shallot, minced",
+            "extraInfo": null,
+            "originalIngredient": "1 small shallot, minced"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "grated Parmesan",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup grated Parmesan"
+        },
+        {
+            "quantity": "1",
+            "unit": "package",
+            "ingredient": "wonton wrappers, or round wrappers",
+            "extraInfo": null,
+            "originalIngredient": "1 package wonton wrappers, or round wrappers"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "ounce",
+            "ingredient": "Pizza dough",
+            "extraInfo": null,
+            "originalIngredient": "1 ounce Pizza dough"
+        },
+        {
+            "quantity": "100",
+            "unit": null,
+            "ingredient": "mL tomato sauce",
+            "extraInfo": null,
+            "originalIngredient": "100 mL tomato sauce"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "caramelized fennel",
+            "extraInfo": null,
+            "originalIngredient": "caramelized fennel"
+        },
+        {
+            "quantity": "100",
+            "unit": "gram",
+            "ingredient": "Gruyere cheese, grated",
+            "extraInfo": null,
+            "originalIngredient": "100 gram Gruyere cheese, grated"
+        }
+    ],
+    [
+        {
+            "quantity": "5",
+            "unit": "slice",
+            "ingredient": "whole grain bread, very thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "5 slices whole grain bread, very thinly sliced"
+        },
+        {
+            "quantity": "3",
+            "unit": "ounce",
+            "ingredient": "goat cheese or chevre, crumbled",
+            "extraInfo": null,
+            "originalIngredient": "3 ounces goat cheese or chevre, crumbled"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "of milk or cream",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup of milk or cream"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1 tbsp extra virgin olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "of salt",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches of salt"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "apple, cut into 1/4 inch dice",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup apple, cut into 1/4 inch dice (place in a bit of lemon water if not using immediately)"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "zucchini, cut into 1/4-inch dice",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup zucchini, cut into 1/4-inch dice"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "lemon juice, freshly squeezed",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons lemon juice, freshly squeezed"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Freshly ground black pepper",
+            "extraInfo": null,
+            "originalIngredient": "Freshly ground black pepper"
+        }
+    ],
+    [
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "extra-virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup extra-virgin olive oil"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "crushed red pepper flakes",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons crushed red pepper flakes"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "walnuts, toasted",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup walnuts, toasted"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "cooked garbanzo beans, drained",
+            "extraInfo": null,
+            "originalIngredient": "2 cups cooked (or canned) garbanzo beans, drained"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic",
+            "extraInfo": null,
+            "originalIngredient": "1  clove garlic"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "lemon juice",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons lemon juice"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "hot water",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup hot water"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "oil-cured olives, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup oil-cured olives, chopped"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Chopped cilantro",
+            "extraInfo": null,
+            "originalIngredient": "Chopped cilantro"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons extra virgin olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "large yellow onions , finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "2 large yellow onions (about 1 1/2 pounds), finely chopped"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "sour cream",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup sour cream (low-fat is fine if you like)"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "Greek yogurt",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup Greek yogurt (low-fat is fine if you like)"
+        },
+        {
+            "quantity": "3",
+            "unit": "teaspoon",
+            "ingredient": "dehydrated onion powder/granulates",
+            "extraInfo": null,
+            "originalIngredient": "3 teaspoons dehydrated onion powder/granulates (salt-free, natural)"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon salt"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic, minced",
+            "extraInfo": null,
+            "originalIngredient": "1 clove garlic, minced"
+        },
+        {
+            "quantity": "1",
+            "unit": "pound",
+            "ingredient": "Gruyere cheese, shredded",
+            "extraInfo": null,
+            "originalIngredient": "1 lb Gruyere cheese, shredded (or 1/2 lb Gruyere + 1/2 lb Emmental cheese)"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "unbleached all-purpose flour",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons unbleached all-purpose flour"
+        },
+        {
+            "quantity": "1.75",
+            "unit": "cup",
+            "ingredient": "dry white wine",
+            "extraInfo": null,
+            "originalIngredient": "1 3/4 cup dry white wine"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "freshly grated nutmeg",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon freshly grated nutmeg"
+        },
+        {
+            "quantity": "1",
+            "unit": "pound",
+            "ingredient": "premium semisweet or bittersweet chocolate, well chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 lb. premium semisweet or bittersweet chocolate, well chopped"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "heavy cream",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups heavy cream"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "cooked green peas, lightly mashed",
+            "extraInfo": null,
+            "originalIngredient": "1 cup cooked green peas, lightly mashed"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "crumbled paneer",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup crumbled paneer"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "small green serrano chiles, minced",
+            "extraInfo": null,
+            "originalIngredient": "2 small green serrano chiles, minced (remove seeds to reduce heat)"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "salt to start",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon salt to start"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "red chile powder or red chile flakes",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon red chile powder or red chile flakes (less to reduce heat)"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "minced garlic",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon minced garlic"
+        },
+        {
+            "quantity": "32",
+            "unit": null,
+            "ingredient": "pcs wonton wrappers",
+            "extraInfo": null,
+            "originalIngredient": "32 pcs wonton wrappers"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "egg white, lightly beaten",
+            "extraInfo": null,
+            "originalIngredient": "1 egg white, lightly beaten"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "medium sweet potatoes , around 700g or 1 1/2 pounds in total",
+            "extraInfo": null,
+            "originalIngredient": "2 medium sweet potatoes (orange inside), around 700g or 1 1/2 pounds in total"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "ground cumin",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons ground cumin"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "small cloves of garlic, chopped",
+            "extraInfo": null,
+            "originalIngredient": "2 small cloves of garlic, chopped"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "ground coriander",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons ground coriander"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "handfuls of fresh cilantro/coriander, chopped",
+            "extraInfo": null,
+            "originalIngredient": "2 handfuls of fresh cilantro/coriander, chopped"
+        },
+        {
+            "quantity": "120",
+            "unit": "gram",
+            "ingredient": "/chickpea flour",
+            "extraInfo": null,
+            "originalIngredient": "120 gram /chickpea flour"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp olive oil"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Sprinkling of sesame seeds",
+            "extraInfo": null,
+            "originalIngredient": "Sprinkling of sesame seeds"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "salt and pepper",
+            "extraInfo": null,
+            "originalIngredient": "salt and pepper"
+        }
+    ],
+    [
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "buckwheat flour",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup buckwheat flour"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "whole wheat pastry flour",
+            "extraInfo": null,
+            "originalIngredient": "1 cup whole wheat pastry flour"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fresh thyme, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fresh thyme, chopped"
+        },
+        {
+            "quantity": "8",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter, cold, cut into 1/4-inch cubes",
+            "extraInfo": null,
+            "originalIngredient": "8 tablespoons (4 ounces) unsalted butter, cold, cut into 1/4-inch cubes"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "white cheddar, shredded on a box grater",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup (2 1/2 ounces) white cheddar, shredded on a box grater"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "ice cold water",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup ice cold water"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "ounce",
+            "ingredient": "bourbon",
+            "extraInfo": null,
+            "originalIngredient": "2 ounces (/ 1/4 cup) bourbon (I used Michter's)"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "ounce",
+            "ingredient": "tablespoon good maple syrup",
+            "extraInfo": null,
+            "originalIngredient": "3/4 ounce (/ 1 1/2) tablespoon good maple syrup"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "ounce",
+            "ingredient": "tablespoon well-strained, fresh yuzu juice",
+            "extraInfo": null,
+            "originalIngredient": "1/2  ounce (/ 1) tablespoon well-strained, fresh yuzu juice"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "ounce",
+            "ingredient": "well-strained, fresh Meyer lemon juice",
+            "extraInfo": null,
+            "originalIngredient": "1/2  ounce (/ 1 tablespoon) well-strained, fresh Meyer lemon juice"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "ice",
+            "extraInfo": null,
+            "originalIngredient": "ice"
+        }
+    ],
+    [
+        {
+            "quantity": "1.75",
+            "unit": "cup",
+            "ingredient": "water",
+            "extraInfo": null,
+            "originalIngredient": "1 3/4 cups water"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "red rice",
+            "extraInfo": null,
+            "originalIngredient": "1 cup red rice"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons oil"
+        },
+        {
+            "quantity": "4",
+            "unit": null,
+            "ingredient": "large shallots, chopped",
+            "extraInfo": null,
+            "originalIngredient": "4 large shallots, chopped"
+        },
+        {
+            "quantity": "3",
+            "unit": "clove",
+            "ingredient": "garlic, chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 cloves garlic, chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large red chile, seeded and chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 large red chile, seeded and chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "ginger root, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 clove ginger root, chopped (hs note: I grated it)"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "ground coriander",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon ground coriander"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large carrot, thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "1 large carrot, thinly sliced"
+        },
+        {
+            "quantity": "8",
+            "unit": "ounce",
+            "ingredient": "green beans, trimmed and chopped",
+            "extraInfo": null,
+            "originalIngredient": "8 ounces green beans, trimmed and chopped"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "coconut milk",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup coconut milk (hs note: lite is fine)"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "soy sauce",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup soy sauce"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "molasses",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon molasses"
+        },
+        {
+            "quantity": "4",
+            "unit": null,
+            "ingredient": "large eggs, boiled and peeled",
+            "extraInfo": null,
+            "originalIngredient": "4 large eggs, boiled and peeled"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large lime, quartered",
+            "extraInfo": null,
+            "originalIngredient": "1 large lime, quartered"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "julienned fresh basil",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup julienned fresh basil"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "macadamia nuts, toasted and chopped",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup macadamia nuts, toasted and chopped"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "pound",
+            "ingredient": "Jacob's Cattle beans",
+            "extraInfo": null,
+            "originalIngredient": "1 lb. Jacob's Cattle beans"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp olive oil"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large onion, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 large onion, chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "red bell pepper, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 red bell pepper, chopped"
+        },
+        {
+            "quantity": "5",
+            "unit": "clove",
+            "ingredient": "garlic, minced",
+            "extraInfo": null,
+            "originalIngredient": "5 cloves garlic, minced"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "ground, dried red chilies",
+            "extraInfo": null,
+            "originalIngredient": "2 T. ground, dried red chilies (I used med-hot Chimayo)"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "tablespoon",
+            "ingredient": "ground cumin",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 T ground cumin"
+        },
+        {
+            "quantity": "2",
+            "unit": "teaspoon",
+            "ingredient": "ground cinnamon",
+            "extraInfo": null,
+            "originalIngredient": "2 t.  ground cinnamon"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "ground allspice",
+            "extraInfo": null,
+            "originalIngredient": "1 t. ground allspice"
+        },
+        {
+            "quantity": "4.5",
+            "unit": "cup",
+            "ingredient": "water or vegetable stock",
+            "extraInfo": null,
+            "originalIngredient": "4 1/2 cups water or vegetable stock"
+        },
+        {
+            "quantity": "1",
+            "unit": "ounce",
+            "ingredient": "bottle Negro Modelo Mexican beer",
+            "extraInfo": null,
+            "originalIngredient": "1 oz. bottle Negro Modelo Mexican beer"
+        },
+        {
+            "quantity": "1.5",
+            "unit": null,
+            "ingredient": "discs Ibarra Mexican chocolate",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 discs Ibarra Mexican chocolate"
+        }
+    ],
+    [
+        {
+            "quantity": "7",
+            "unit": "ounce",
+            "ingredient": "Black Pearl bar or Black Pearl chips",
+            "extraInfo": null,
+            "originalIngredient": "7 ounces Black Pearl bar (about 2 bars) or Black Pearl chips (1 3/4 bags)"
+        },
+        {
+            "quantity": "1",
+            "unit": "stick",
+            "ingredient": "unsalted butter {4 oz.}",
+            "extraInfo": null,
+            "originalIngredient": "1 stick unsalted butter {4 oz.}"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "cocoa powder",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons cocoa powder"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "large eggs",
+            "extraInfo": null,
+            "originalIngredient": "3 large eggs"
+        },
+        {
+            "quantity": "1.25",
+            "unit": "cup",
+            "ingredient": "sugar",
+            "extraInfo": null,
+            "originalIngredient": "1 1/4 cup sugar"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "vanilla extract",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon vanilla extract"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "fresh ginger, peeled and minced",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon fresh ginger, peeled and minced"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "mini marshmallows",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup mini marshmallows"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "all purpose flour",
+            "extraInfo": null,
+            "originalIngredient": "1 cup all purpose flour"
+        }
+    ],
+    [
+        {
+            "quantity": "150",
+            "unit": "gram",
+            "ingredient": "assorted wild mushrooms",
+            "extraInfo": null,
+            "originalIngredient": "150 g (5 oz) assorted wild mushrooms"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "stock",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons stock"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "salt",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "white sugar",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch white sugar (- optional)"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "lime juice",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons lime juice (you might use less)"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "fish sauce",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons fish sauce (for veg: substitute a splash of soy sauce)"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "roasted chili powder",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch roasted chili powder"
+        },
+        {
+            "quantity": "4",
+            "unit": null,
+            "ingredient": "shallots, sliced",
+            "extraInfo": null,
+            "originalIngredient": "4 shallots, sliced"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "shredded pak chii farang",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons shredded pak chii farang (long-leaf coriander)"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "chopped spring onion",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon chopped spring (green) onion"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "ground roasted rice",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon ground roasted rice"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "whole milk",
+            "extraInfo": null,
+            "originalIngredient": "2 cups whole milk"
+        },
+        {
+            "quantity": "9",
+            "unit": "ounce",
+            "ingredient": "sugar",
+            "extraInfo": null,
+            "originalIngredient": "9 ounces sugar"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "vanilla pod, split",
+            "extraInfo": null,
+            "originalIngredient": "1 vanilla pod, split"
+        },
+        {
+            "quantity": "2",
+            "unit": "ounce",
+            "ingredient": "butter",
+            "extraInfo": null,
+            "originalIngredient": "2 ounces butter"
+        },
+        {
+            "quantity": "6",
+            "unit": "ounce",
+            "ingredient": "flour",
+            "extraInfo": null,
+            "originalIngredient": "6 ounces flour"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "egg yolks",
+            "extraInfo": null,
+            "originalIngredient": "2 egg yolks"
+        },
+        {
+            "quantity": "3",
+            "unit": "teaspoon",
+            "ingredient": "dark rum",
+            "extraInfo": null,
+            "originalIngredient": "3 teaspoon dark rum"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "Butter",
+            "extraInfo": null,
+            "originalIngredient": "1 tbsp Butter"
+        }
+    ],
+    [
+        {
+            "quantity": "8",
+            "unit": "ounce",
+            "ingredient": "fresh goat cheese",
+            "extraInfo": null,
+            "originalIngredient": "8 ounces fresh goat cheese"
+        },
+        {
+            "quantity": "24",
+            "unit": "slice",
+            "ingredient": "of white sandwich bread, crusts removed",
+            "extraInfo": null,
+            "originalIngredient": "24 slices of white sandwich bread, crusts removed"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch watercress leaves, enough to make about 2 lightly packed cups",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch watercress leaves, enough to make about 2 lightly packed cups"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "bunches of fresh chives, finely snipped to make 1/2 cup",
+            "extraInfo": null,
+            "originalIngredient": "2 bunches of fresh chives, finely snipped to make 1/2 cup"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "homemade or prepared mayonnaise",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons homemade or prepared mayonnaise"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "pound",
+            "ingredient": "of thick-sliced hickory-smoked peppered bacon",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 pounds of thick-sliced hickory-smoked peppered bacon (heidi: I used Smart Bacon - vegetarian option)"
+        },
+        {
+            "quantity": "24",
+            "unit": null,
+            "ingredient": "sun-dried tomatoes",
+            "extraInfo": null,
+            "originalIngredient": "24 (4 ounces) sun-dried tomatoes"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "homemade or prepared mayonnaise",
+            "extraInfo": null,
+            "originalIngredient": "1 cup homemade or prepared mayonnaise"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Kosher salt and freshly ground pepper",
+            "extraInfo": null,
+            "originalIngredient": "Kosher salt and freshly ground pepper"
+        },
+        {
+            "quantity": "24.25",
+            "unit": null,
+            "ingredient": "-inch-thick slices of rye bread",
+            "extraInfo": null,
+            "originalIngredient": "24 1/4-inch-thick slices of rye bread"
+        },
+        {
+            "quantity": "6",
+            "unit": "ounce",
+            "ingredient": "lamb's lettuce",
+            "extraInfo": null,
+            "originalIngredient": "6 ounces lamb's lettuce (mache)"
+        }
+    ],
+    [
+        {
+            "quantity": "4",
+            "unit": "ounce",
+            "ingredient": "whole macadamia nuts , optional",
+            "extraInfo": null,
+            "originalIngredient": "4 ounces whole macadamia nuts (about 1 cup), optional"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "vegetable oil",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon vegetable oil"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "unpopped popcorn",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup unpopped popcorn"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "water",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup water"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "sugar",
+            "extraInfo": null,
+            "originalIngredient": "2 cups sugar"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "light corn syrup",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons light corn syrup"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "vanilla bean, split lengthwise and scraped",
+            "extraInfo": null,
+            "originalIngredient": "1 vanilla bean, split lengthwise and scraped"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "teaspoon",
+            "ingredient": "ground cinnamon",
+            "extraInfo": null,
+            "originalIngredient": "3/4 teaspoon ground cinnamon"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "freshly grated nutmeg",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons freshly grated nutmeg"
+        },
+        {
+            "quantity": "0.125",
+            "unit": "teaspoon",
+            "ingredient": "ground cloves",
+            "extraInfo": null,
+            "originalIngredient": "1/8 teaspoon ground cloves"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "ground cardamom",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon ground cardamom"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "coarse salt",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons coarse salt"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "tart apples, locally grown if possible",
+            "extraInfo": null,
+            "originalIngredient": "2 tart apples, locally grown if possible"
+        },
+        {
+            "quantity": "4",
+            "unit": "tablespoon",
+            "ingredient": "lime juice",
+            "extraInfo": null,
+            "originalIngredient": "4 tablespoons lime juice"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "fresh jalapeno chile",
+            "extraInfo": null,
+            "originalIngredient": "1 fresh jalapeno chile"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "fresh Anaheim chile",
+            "extraInfo": null,
+            "originalIngredient": "1 fresh Anaheim chile"
+        },
+        {
+            "quantity": "0.5",
+            "unit": null,
+            "ingredient": "medium onion, finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1/2 medium onion, finely chopped"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Handful of cilantro, roughly chopped",
+            "extraInfo": null,
+            "originalIngredient": "Handful of cilantro, roughly chopped"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "walnuts, coarsely chopped and lightly toasted",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup (2 ounces) walnuts, coarsely chopped and lightly toasted"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "peeled and finely slivered fresh ginger",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons peeled and finely slivered fresh ginger"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "salt",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon salt"
+        }
+    ],
+    [
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "broccoli , cut into very small florets",
+            "extraInfo": null,
+            "originalIngredient": "3 cups broccoli (about 3 cups), cut into very small florets"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "walnuts, toasted",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup walnuts, toasted"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "Parmesan, freshly grated",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup Parmesan, freshly grated"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic",
+            "extraInfo": null,
+            "originalIngredient": "1 clove (of) garlic"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "extra-virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup extra-virgin olive oil"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "pound",
+            "ingredient": "dried whole wheat pasta",
+            "extraInfo": null,
+            "originalIngredient": "1/2 pound (8 ounces) dried whole wheat pasta (bite-sized - fusilli, penne, etc)"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "handfuls of spinach or chard, well chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 handfuls of spinach or chard, well chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "handful of oily black olives, pitted",
+            "extraInfo": null,
+            "originalIngredient": "1 handful of oily black olives, pitted"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Parmesan for serving",
+            "extraInfo": null,
+            "originalIngredient": "Parmesan for serving"
+        }
+    ],
+    [
+        {
+            "quantity": "4",
+            "unit": "cup",
+            "ingredient": "globe eggplant, trimmed and diced",
+            "extraInfo": null,
+            "originalIngredient": "4 cups globe eggplant, trimmed and diced (about 4 cups)"
+        },
+        {
+            "quantity": "4",
+            "unit": "cup",
+            "ingredient": "summer zucchini or squashes, trimmed and diced",
+            "extraInfo": null,
+            "originalIngredient": "4 cups summer zucchini or squashes, trimmed and diced (about 4 cups)"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Kosher salt",
+            "extraInfo": null,
+            "originalIngredient": "Kosher salt"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "fennel bulb",
+            "extraInfo": null,
+            "originalIngredient": "1 fennel bulb"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 cups extra virgin olive oil"
+        },
+        {
+            "quantity": "5",
+            "unit": "clove",
+            "ingredient": "garlic, smashed with the side of a knife",
+            "extraInfo": null,
+            "originalIngredient": "5 cloves garlic, smashed with the side of a knife"
+        },
+        {
+            "quantity": "4",
+            "unit": null,
+            "ingredient": "sprigs marjoram",
+            "extraInfo": null,
+            "originalIngredient": "4 sprigs (fresh) marjoram"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bay leaf",
+            "extraInfo": null,
+            "originalIngredient": "1 bay leaf"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "Yukon Gold potatoes, cubed",
+            "extraInfo": null,
+            "originalIngredient": "3 Yukon Gold potatoes, cubed (about 2 cups)"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "water",
+            "extraInfo": null,
+            "originalIngredient": "2 cups water"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "fiorelli or thinly sliced squash blossoms",
+            "extraInfo": null,
+            "originalIngredient": "1 cup fiorelli or thinly sliced squash blossoms"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "cherry tomatoes, stemmed and halved",
+            "extraInfo": null,
+            "originalIngredient": "1 cup cherry tomatoes, stemmed and halved"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Block of aged pecorino for shaving",
+            "extraInfo": null,
+            "originalIngredient": "Block of aged pecorino for shaving"
+        }
+    ],
+    [
+        {
+            "quantity": "5",
+            "unit": null,
+            "ingredient": "tomatoes, cored and quartered",
+            "extraInfo": null,
+            "originalIngredient": "5 tomatoes, cored (if necessary) and quartered"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large red bell pepper, seeded and quartered",
+            "extraInfo": null,
+            "originalIngredient": "1 large red bell pepper, seeded and quartered"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "medium yellow onions, peeled, quartered",
+            "extraInfo": null,
+            "originalIngredient": "3 medium yellow onions, peeled, quartered"
+        },
+        {
+            "quantity": "4",
+            "unit": "tablespoon",
+            "ingredient": "extra-virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "4 tbsp extra-virgin olive oil"
+        },
+        {
+            "quantity": "5",
+            "unit": null,
+            "ingredient": "plump cloves of garlic, unpeeled",
+            "extraInfo": null,
+            "originalIngredient": "5 plump cloves of garlic, unpeeled"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "fine-grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "fine-grain sea salt"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "light vegetable stock or water",
+            "extraInfo": null,
+            "originalIngredient": "2 cups light vegetable stock or water"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "teaspoon",
+            "ingredient": "smoked paprika",
+            "extraInfo": null,
+            "originalIngredient": "1/4 teaspoon smoked paprika"
+        }
+    ],
+    [
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "real, good quality maple syrup",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup real, good quality maple syrup"
+        },
+        {
+            "quantity": "6",
+            "unit": "tablespoon",
+            "ingredient": "milk or cream",
+            "extraInfo": null,
+            "originalIngredient": "6 tablespoons milk or cream"
+        },
+        {
+            "quantity": "2.25",
+            "unit": "cup",
+            "ingredient": "whole wheat pastry flour",
+            "extraInfo": null,
+            "originalIngredient": "2 1/4 cups whole wheat pastry flour"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "quinoa flakes",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup quinoa flakes (or rolled oats)"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "tablespoon",
+            "ingredient": "baking powder",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 tablespoons baking powder"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "11",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter, cold, cut into cubes",
+            "extraInfo": null,
+            "originalIngredient": "11 tablespoons unsalted butter, cold, cut into cubes"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "egg, lightly beaten",
+            "extraInfo": null,
+            "originalIngredient": "1 egg, lightly beaten"
+        },
+        {
+            "quantity": "20",
+            "unit": "gram",
+            "ingredient": "large-grain sugar",
+            "extraInfo": null,
+            "originalIngredient": "20 gram large-grain sugar (for example: turbinado)"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons olive oil"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large yellow onion, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 large yellow onion, chopped"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "shallots, chopped",
+            "extraInfo": null,
+            "originalIngredient": "2 shallots, chopped"
+        },
+        {
+            "quantity": "8",
+            "unit": "clove",
+            "ingredient": "garlic, finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "8 cloves garlic, finely chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "ginger, peeled and grated",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon ginger, peeled and grated"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "chili powder",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons chili powder"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "ground cumin",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon ground cumin"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "serrano pepper, seeded and finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 serrano pepper, seeded and finely chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "chipotle pepper , minced",
+            "extraInfo": null,
+            "originalIngredient": "1 chipotle pepper (from can or rehydrate), minced"
+        },
+        {
+            "quantity": "1",
+            "unit": "can",
+            "ingredient": "of crushed tomatoes",
+            "extraInfo": null,
+            "originalIngredient": "1 can of crushed tomatoes"
+        },
+        {
+            "quantity": "10",
+            "unit": "cup",
+            "ingredient": "vegetable broth",
+            "extraInfo": null,
+            "originalIngredient": "10 cups vegetable broth"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "cooked chickpeas",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups cooked chickpeas (canned is fine)"
+        },
+        {
+            "quantity": "2.25",
+            "unit": "cup",
+            "ingredient": "black, brown, or green lentils , rinsed and picked over",
+            "extraInfo": null,
+            "originalIngredient": "2 1/4 cups black, brown, or green lentils (or combo), rinsed and picked over"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "pearled barley or pearled farro",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup pearled barley or pearled farro"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "bulgur wheat",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup bulgur wheat"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon fine grain sea salt (or to taste)"
+        }
+    ],
+    [
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "olive oil or",
+            "extraInfo": null,
+            "originalIngredient": "3 T. olive oil or (3T.)"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "large shallots, chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 large shallots, chopped"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "of fine-grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches of fine-grain sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "of crushed red pepper flakes",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch of crushed red pepper flakes"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "sprig of rosemary",
+            "extraInfo": null,
+            "originalIngredient": "1 sprig of rosemary"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "pound",
+            "ingredient": "yellow or green summer squash, cut into 1/2-inch thick slices/chunks",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 pounds yellow or green summer squash, cut into 1/2-inch thick slices/chunks"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "pound",
+            "ingredient": "potatoes, un-peeled, cut into 1/4-inch thick pieces",
+            "extraInfo": null,
+            "originalIngredient": "3/4 pound potatoes, un-peeled, cut into 1/4-inch thick pieces"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "medium cloves garlic, chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 medium cloves garlic, chopped"
+        },
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "lightly flavored vegetable stock or water",
+            "extraInfo": null,
+            "originalIngredient": "3 cups lightly flavored vegetable stock or water"
+        },
+        {
+            "quantity": "0.666",
+            "unit": "cup",
+            "ingredient": "buttermilk",
+            "extraInfo": null,
+            "originalIngredient": "2/3 cup buttermilk"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "brown sushi rice",
+            "extraInfo": null,
+            "originalIngredient": "2 cups (/ 14 oz / 400 g) brown sushi rice (stubby, short grains)"
+        },
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "water",
+            "extraInfo": null,
+            "originalIngredient": "3 cups (/ 710 ml) water"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "fine grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon fine grain sea salt"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "sesame seeds",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup (/ 1.5 oz / 45 g) sesame seeds (white/black mix)"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "toasted almond slices/slivers, chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons toasted almond slices/slivers, chopped"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "minced green onions",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup (/ 4 tablespoons) minced green onions"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "toasted sesame oil",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon toasted sesame oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon olive oil"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "eggs, well beaten with a big pinch of salt",
+            "extraInfo": null,
+            "originalIngredient": "3 eggs, well beaten with a big pinch of salt"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "small red onion, finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 small red onion, finely chopped"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "cup",
+            "ingredient": "cooked wild rice",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 cups cooked wild rice"
+        },
+        {
+            "quantity": "6",
+            "unit": "ounce",
+            "ingredient": "extra-firm nigari tofu, cut into 1/2-inch cubes, raw or browned in a skillet ahead of time",
+            "extraInfo": null,
+            "originalIngredient": "6 ounces extra-firm nigari tofu, cut into 1/2-inch cubes, raw or browned in a skillet ahead of time"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "handfuls pea sprouts, chopped green beans or peas",
+            "extraInfo": null,
+            "originalIngredient": "2 handfuls pea sprouts, chopped green beans or peas"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "tamari or soy sauce",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon tamari or soy sauce"
+        }
+    ],
+    [
+        {
+            "quantity": "4",
+            "unit": "pound",
+            "ingredient": "of apples",
+            "extraInfo": null,
+            "originalIngredient": "4 pounds of apples (we used a mix of empire, gala, and Fuji apples - but any type of flavorful apple will do)"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "gallon",
+            "ingredient": "of apple cider",
+            "extraInfo": null,
+            "originalIngredient": "1/2 gallon of apple cider"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "sugar",
+            "extraInfo": null,
+            "originalIngredient": "2 cups sugar (use roughly 1/2 cup per pound of fruit)"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "cinnamon",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 t. cinnamon"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "cloves garlic",
+            "extraInfo": null,
+            "originalIngredient": "1/2 t. cloves garlic"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "lemon juice",
+            "extraInfo": null,
+            "originalIngredient": "1/2 t. lemon juice"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "pistachios, shelled, blanched and skinned",
+            "extraInfo": null,
+            "originalIngredient": "1 cup pistachios, shelled, blanched and skinned (instructions below)"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "almonds, blanched and skinned",
+            "extraInfo": null,
+            "originalIngredient": "1 cup almonds, blanched and skinned"
+        },
+        {
+            "quantity": "0.75",
+            "unit": "cup",
+            "ingredient": "granulated sugar",
+            "extraInfo": null,
+            "originalIngredient": "3/4 cup granulated sugar (next time I will prob. sweeten with a mild honey or light agave nectar)"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "or so hot water",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup or so hot water"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "of salt",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches of salt"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "ears sweet corn, husked",
+            "extraInfo": null,
+            "originalIngredient": "2 ears sweet corn, husked"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "handful lettuce, torn into bite-sized pieces",
+            "extraInfo": null,
+            "originalIngredient": "1 handful lettuce, torn into bite-sized pieces"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "handfuls green beans or haricots vert, blanched for 20 seconds in boiling salted water, cooled completely under cold water",
+            "extraInfo": null,
+            "originalIngredient": "3 handfuls green beans or haricots vert, blanched for 20 seconds in boiling salted water, cooled completely under cold water"
+        },
+        {
+            "quantity": "0.5",
+            "unit": null,
+            "ingredient": "red onion, thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "1/2 red onion, thinly sliced"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of chives, finely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of chives, finely chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "handful cilantro, loosely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 handful cilantro, loosely chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "handful of small/medium basil leaves",
+            "extraInfo": null,
+            "originalIngredient": "1 handful of small/medium basil leaves"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "handful of pepitas, toasted",
+            "extraInfo": null,
+            "originalIngredient": "1 handful of pepitas, toasted"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "sea salt",
+            "extraInfo": null,
+            "originalIngredient": "1 tbsp sea salt"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "garlic, peeled",
+            "extraInfo": null,
+            "originalIngredient": "1 clove garlic, peeled"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "Greek yogurt",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup Greek yogurt"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "lemon juice",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon lemon juice"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "medium avocado",
+            "extraInfo": null,
+            "originalIngredient": "1 medium avocado"
+        }
+    ],
+    [
+        {
+            "quantity": "10",
+            "unit": null,
+            "ingredient": "medium-sized new potatoes, unpeeled and quartered",
+            "extraInfo": null,
+            "originalIngredient": "10 medium-sized new potatoes, unpeeled and quartered"
+        },
+        {
+            "quantity": "3",
+            "unit": null,
+            "ingredient": "yellow summer pattypan squash, cut in half",
+            "extraInfo": null,
+            "originalIngredient": "3 yellow summer pattypan squash, cut in half"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "bunch of green onions or spring onions",
+            "extraInfo": null,
+            "originalIngredient": "1 bunch of green onions or spring onions"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "of olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp of olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "lemons, cut in half",
+            "extraInfo": null,
+            "originalIngredient": "2 lemons, cut in half"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "rice vinegar",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup rice vinegar"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup olive oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "of garlic, mashed and chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 clove of garlic, mashed and chopped"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "drops of toasted sesame oil",
+            "extraInfo": null,
+            "originalIngredient": "2 drops of toasted sesame oil"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "salt",
+            "extraInfo": null,
+            "originalIngredient": "salt"
+        },
+        {
+            "quantity": "0.5",
+            "unit": null,
+            "ingredient": "head of lettuce, washed and cut into bite-sized pieces",
+            "extraInfo": null,
+            "originalIngredient": "1/2 head of lettuce, washed and cut into bite-sized pieces"
+        }
+    ],
+    [
+        {
+            "quantity": "1",
+            "unit": "pound",
+            "ingredient": "of fresh fava beans, still in their pods",
+            "extraInfo": null,
+            "originalIngredient": "1 pound of fresh fava beans, still in their pods"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "tbs[ of olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbs[ of olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "of salt",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches of salt"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "Paprika oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp Paprika oil"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup extra virgin olive oil"
+        },
+        {
+            "quantity": "1",
+            "unit": "clove",
+            "ingredient": "of garlic, crushed",
+            "extraInfo": null,
+            "originalIngredient": "1 clove of garlic, crushed"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "bittersweet paprika",
+            "extraInfo": null,
+            "originalIngredient": "1 Tablespoon bittersweet paprika"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "sweet smoked paprika",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon sweet smoked paprika"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "Cumin oil:",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp Cumin oil:"
+        }
+    ],
+    [
+        {
+            "quantity": "6-8",
+            "unit": null,
+            "ingredient": "corn tortillas, cut in half and then into  matchstick-thin strips",
+            "extraInfo": null,
+            "originalIngredient": "6-8 corn tortillas, cut in half and then into  matchstick-thin strips"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "2 tbsp extra virgin olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "sea salt",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches sea salt"
+        },
+        {
+            "quantity": "20",
+            "unit": null,
+            "ingredient": "small yellow or red cherry tomatoes",
+            "extraInfo": null,
+            "originalIngredient": "20 small yellow or red cherry tomatoes"
+        },
+        {
+            "quantity": "3",
+            "unit": "clove",
+            "ingredient": "garlic, chopped",
+            "extraInfo": null,
+            "originalIngredient": "3 cloves garlic, chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large white onion, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 large white onion, chopped"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "ground cumin",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon ground cumin"
+        },
+        {
+            "quantity": "2",
+            "unit": "teaspoon",
+            "ingredient": "ground coriander",
+            "extraInfo": null,
+            "originalIngredient": "2 teaspoons ground coriander"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "cayenne or other spicy red chili powder",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon cayenne or other spicy red chili powder"
+        },
+        {
+            "quantity": "1",
+            "unit": "can",
+            "ingredient": "crushed tomatoes",
+            "extraInfo": null,
+            "originalIngredient": "1 can crushed tomatoes"
+        },
+        {
+            "quantity": "6",
+            "unit": "cup",
+            "ingredient": "vegetable broth",
+            "extraInfo": null,
+            "originalIngredient": "6 cups vegetable broth (or water)"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "a few sun-dried tomatoes, chopped",
+            "extraInfo": null,
+            "originalIngredient": "a few sun-dried tomatoes, chopped"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "of goat cheese, crumbled",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup of goat cheese, crumbled"
+        }
+    ],
+    [
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "extra virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons extra virgin olive oil"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "medium fennel bulbs, trimmed fronds reserved, thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "2 medium fennel bulbs, trimmed fronds reserved, thinly sliced"
+        },
+        {
+            "quantity": "2.25",
+            "unit": "pound",
+            "ingredient": "farmer market carrots, thickly sliced",
+            "extraInfo": null,
+            "originalIngredient": "2 1/4 pounds( / 36 ounces) farmer market carrots, thickly sliced"
+        },
+        {
+            "quantity": "2",
+            "unit": null,
+            "ingredient": "large cloves garlic, thinly sliced",
+            "extraInfo": null,
+            "originalIngredient": "2 large cloves garlic, thinly sliced"
+        },
+        {
+            "quantity": "10",
+            "unit": "cup",
+            "ingredient": "good-tasting vegetable broth or water",
+            "extraInfo": null,
+            "originalIngredient": "10 cups good-tasting vegetable broth or water"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "salt to taste",
+            "extraInfo": null,
+            "originalIngredient": "salt to taste"
+        },
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "cooked wild rice",
+            "extraInfo": null,
+            "originalIngredient": "3 cups ( / 12 oz) cooked wild rice"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "blood orange olive oil or 5 tablespoons fresh orange juice",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons blood orange olive oil or 5 tablespoons fresh orange juice"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Freshly grated Parmesan cheese",
+            "extraInfo": null,
+            "originalIngredient": "Freshly grated Parmesan cheese"
+        }
+    ],
+    [
+        {
+            "quantity": "5",
+            "unit": null,
+            "ingredient": "sweet potatoes",
+            "extraInfo": null,
+            "originalIngredient": "5 (red-fleshed ) sweet potatoes"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Splash of extra-virgin olive oil",
+            "extraInfo": null,
+            "originalIngredient": "Splash of extra-virgin olive oil"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Salt and pepper",
+            "extraInfo": null,
+            "originalIngredient": "Salt and pepper"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "-inch square of ginger, peeled and grated",
+            "extraInfo": null,
+            "originalIngredient": "1-inch square of ginger, peeled and grated"
+        },
+        {
+            "quantity": "2",
+            "unit": "pinch",
+            "ingredient": "of ground cinnamon or canela",
+            "extraInfo": null,
+            "originalIngredient": "2 pinches of ground cinnamon or canela"
+        },
+        {
+            "quantity": "1",
+            "unit": "pinch",
+            "ingredient": "of ground cloves",
+            "extraInfo": null,
+            "originalIngredient": "1 pinch of ground cloves"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter, melted and cooled a bit",
+            "extraInfo": null,
+            "originalIngredient": "3 T. unsalted butter, melted and cooled a bit"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "maple syrup",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup maple syrup"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "Splash of milk",
+            "extraInfo": null,
+            "originalIngredient": "2 T. Splash of milk (2T. or so)"
+        },
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "Splash of bourbon",
+            "extraInfo": null,
+            "originalIngredient": "2 T. Splash of bourbon (2T. or so)"
+        },
+        {
+            "quantity": "0.25",
+            "unit": null,
+            "ingredient": "freshly grated Parmesan",
+            "extraInfo": null,
+            "originalIngredient": "1/4 freshly grated Parmesan (not from the plastic container!)"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Spicy Pecans",
+            "extraInfo": null,
+            "originalIngredient": "Spicy Pecans (recipe below)"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon unsalted butter"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "pecans",
+            "extraInfo": null,
+            "originalIngredient": "2 cups pecans"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "brown sugar",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup brown sugar"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "paprika",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon paprika"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "red chile powder",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon red chile powder"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "cider vinegar",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons cider vinegar"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "tablespoon",
+            "ingredient": "unsalted butter, at room temperature",
+            "extraInfo": null,
+            "originalIngredient": "2 tablespoons unsalted butter, at room temperature"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "head celery",
+            "extraInfo": null,
+            "originalIngredient": "1 head celery (about 1 3/4 pounds)"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "large shallot or 1 small yellow onion, finely minced",
+            "extraInfo": null,
+            "originalIngredient": "1 large shallot or 1 small yellow onion, finely minced (about 1/4 cup)"
+        },
+        {
+            "quantity": "1.5",
+            "unit": "teaspoon",
+            "ingredient": "finely chopped fresh thyme or 1/2 teaspoon dried",
+            "extraInfo": null,
+            "originalIngredient": "1 1/2 teaspoons finely chopped fresh thyme or 1/2 teaspoon dried"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "Coarse salt and freshly ground black pepper",
+            "extraInfo": null,
+            "originalIngredient": "Coarse salt and freshly ground black pepper"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "dry white wine or dry white vermouth",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup dry white wine or dry white vermouth"
+        },
+        {
+            "quantity": "1",
+            "unit": "cup",
+            "ingredient": "chicken stock, homemade or store-bought",
+            "extraInfo": null,
+            "originalIngredient": "1 cup chicken stock, homemade (page 448) or store-bought (hs note: I used a veg. stock)"
+        },
+        {
+            "quantity": "0.333",
+            "unit": "cup",
+            "ingredient": "freshly grated Gruyere, or half Gruyere and half Parmigiano-Reggiano",
+            "extraInfo": null,
+            "originalIngredient": "1/3 cup freshly grated Gruyere, or half Gruyere and half Parmigiano-Reggiano"
+        },
+        {
+            "quantity": "3",
+            "unit": "tablespoon",
+            "ingredient": "fresh bread crumbs made from day-old rustic white bread",
+            "extraInfo": null,
+            "originalIngredient": "3 tablespoons fresh bread crumbs made from day-old rustic white bread"
+        }
+    ],
+    [
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "dried cranberry, borlotti,or pinto beans, soaked over night",
+            "extraInfo": null,
+            "originalIngredient": "2 cups dried cranberry, borlotti,or pinto beans, soaked over night"
+        },
+        {
+            "quantity": "1",
+            "unit": null,
+            "ingredient": "medium red onion, chopped",
+            "extraInfo": null,
+            "originalIngredient": "1 medium red onion, chopped"
+        },
+        {
+            "quantity": "0.25",
+            "unit": "cup",
+            "ingredient": "molasses",
+            "extraInfo": null,
+            "originalIngredient": "1/4 cup molasses"
+        },
+        {
+            "quantity": "1",
+            "unit": "tablespoon",
+            "ingredient": "Dijon-style mustard",
+            "extraInfo": null,
+            "originalIngredient": "1 tablespoon Dijon-style mustard"
+        },
+        {
+            "quantity": "1",
+            "unit": "teaspoon",
+            "ingredient": "crushed red pepper flakes",
+            "extraInfo": null,
+            "originalIngredient": "1 teaspoon crushed red pepper flakes"
+        },
+        {
+            "quantity": "3",
+            "unit": "cup",
+            "ingredient": "berry beer",
+            "extraInfo": null,
+            "originalIngredient": "3 cups berry beer"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "cup",
+            "ingredient": "dried berries and/or cherries, loosely chopped",
+            "extraInfo": null,
+            "originalIngredient": "1/2 cup dried berries and/or cherries, loosely chopped"
+        },
+        {
+            "quantity": "2",
+            "unit": "cup",
+            "ingredient": "light vegetable broth",
+            "extraInfo": null,
+            "originalIngredient": "2 cups light vegetable broth"
+        },
+        {
+            "quantity": "0.5",
+            "unit": "teaspoon",
+            "ingredient": "smoked paprika",
+            "extraInfo": null,
+            "originalIngredient": "1/2 teaspoon smoked paprika (or more to taste)"
+        },
+        {
+            "quantity": null,
+            "unit": null,
+            "ingredient": "fine-grain sea salt",
+            "extraInfo": null,
+            "originalIngredient": "fine-grain sea salt"
+        }
+    ]
+]

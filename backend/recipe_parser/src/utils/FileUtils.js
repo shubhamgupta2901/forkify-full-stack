@@ -1,7 +1,7 @@
 //requiring path and fs modules
 const path = require('path');
 const fs = require('fs');
-const assetsDirectory = path.join(__dirname,'../assets');
+const assetsDirectory = path.join(__dirname,'../../assets');
 
 const loadFileContent =(directoryPath,fileName,isPathResolved = false)=>{
     if(!isPathResolved)
