@@ -1,9 +1,6 @@
 const FileUtils = require('./utils/FileUtils');
 const IngredientParser  = require('./ingredientParser'); 
 
-const data = FileUtils.loadFileContent('','db.json',false);
-const recipes = data.content;
-
 const ingredientsParser = (recipe) => {
     const extraIngredients = recipe.ingredients.map(ingredient => {
         let extraIngredient = {};
@@ -33,5 +30,4 @@ const startParsing = () => {
     const ingredients= outputRecipes.map(recipe=> recipe.ingredients);
     FileUtils.writeContentToFile('','Ingredients.json',ingredients);
 }
-
-console.log(startParsing());
+startParsing();
