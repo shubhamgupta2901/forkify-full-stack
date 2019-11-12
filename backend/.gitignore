@@ -91,4 +91,7 @@ typings/
 config
 config.dev.env
 
+#assets folder
+recipe_parser/assets/
+
 
