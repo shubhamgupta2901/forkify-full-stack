@@ -1,5 +1,5 @@
 const FileUtils = require('./utils/FileUtils');
-const IngredientParser  = require('./ingredientParser'); 
+const IngredientParser  = require('./parsers/ingredientParser'); 
 
 const ingredientsParser = (recipe) => {
     const extraIngredients = recipe.ingredients.map(ingredient => {
@@ -24,7 +24,7 @@ const ingredientsParser = (recipe) => {
 
 const startParsing = () => {
     const ingredientsDictionary = [];
-    const data = FileUtils.loadFileContent('','db.json',false);
+    const data = FileUtils.loadFileContentFromAsset('','db.json',false);
     const recipes = data.content;
     const outputRecipes = recipes.map(recipe=>ingredientsParser(recipe));
     const ingredients= outputRecipes.map(recipe=> recipe.ingredients);
