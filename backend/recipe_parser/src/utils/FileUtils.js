@@ -3,11 +3,24 @@ const path = require('path');
 const fs = require('fs');
 const assetsDirectory = path.join(__dirname,'../../assets');
 
-const loadFileContent =(directoryPath,fileName,isPathResolved = false)=>{
+const loadFileContentFromAsset =(directoryPath,fileName,isPathResolved = false)=>{
     if(!isPathResolved)
         directoryPath = path.resolve(assetsDirectory,directoryPath);
     const filePath = path.resolve(directoryPath,fileName);
     console.log(`Attempting to read file: ${filePath}`)
+    try {
+        const dataBuffer = fs.readFileSync(filePath);
+        const dataJSON = dataBuffer.toString();
+        const dataObj =  JSON.parse(dataJSON);
+        return {name: fileName,content:dataObj};
+    } catch (error) {
+        console.log(error+'. Returning empty Array.');
+        return [];
+    }
+}
+
+const loadFileContent = (directoryPath, fileName) => {
+    const filePath = path.join(directoryPath,fileName);
     try {
         const dataBuffer = fs.readFileSync(filePath);
         const dataJSON = dataBuffer.toString();
@@ -25,7 +38,7 @@ const getAllFilesData = (inputFolderName) =>{
     const arr = [];
     const files = fs.readdirSync(directoryPath);
     files.forEach(file=>{
-        arr.push(loadFileContent(directoryPath,file,true));
+        arr.push(loadFileContentFromAsset(directoryPath,file,true));
     })
     return arr;
 }
@@ -58,6 +71,7 @@ const getFileExtension = (filename) =>
 }
 module.exports = {
     loadFileContent,
+    loadFileContentFromAsset,
     getAllFilesData,
     writeContentToFile, 
     getJSONSize,
