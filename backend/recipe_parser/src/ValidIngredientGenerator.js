@@ -1,5 +1,5 @@
 const FileUtils = require('./utils/FileUtils');
-const IngredientParser  = require('./parsers/ingredientParser'); 
+const IngredientParser  = require('./ingredientParser'); 
 
 const ingredientsParser = (recipe) => {
     const extraIngredients = recipe.ingredients.map(ingredient => {
