@@ -21,7 +21,12 @@ const inputRecipes = require('../assets/db.json');
 // inputRecipes.forEach(recipe=> generateCleanRecipe(recipe))
 
 
-
+const generateCleanReadyInMinutes = () => {
+  inputRecipes.forEach(recipe=>{
+    const readyInMinutes = { prepTime: recipe.prepTime, cookTime: recipe.cookTime, ...dataCleaner.getReadyInMinutesForRecipe(recipe)};
+    console.log(readyInMinutes);
+  })
+}
 
 const generateCleanRecipe = (recipe) => {
   let cleanRecipe = {}
@@ -31,4 +36,5 @@ const generateCleanRecipe = (recipe) => {
   // const cleanRecipe = dataCleaner['getTitleForRecipe'](recipe);
   console.log(cleanRecipe); 
 }
-generateCleanRecipe(inputRecipes[0]);
+// generateCleanRecipe(inputRecipes[0]);
+generateCleanReadyInMinutes();

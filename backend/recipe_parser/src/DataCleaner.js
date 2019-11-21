@@ -81,8 +81,8 @@ reduceToMinutes = (timeStr) => {
 dataCleaner.getReadyInMinutesForRecipe = (recipe) =>{  
 
     try {
-        let prepTime = recipe.prepTime;
-        let cookTime = recipe.cookTime;
+        let prepTime = recipe.prepTime && recipe.prepTime.substring(2);
+        let cookTime = recipe.cookTime && recipe.cookTime.substring(2);
 
         if(!cookTime && !prepTime){
             cookTime = '15M'
