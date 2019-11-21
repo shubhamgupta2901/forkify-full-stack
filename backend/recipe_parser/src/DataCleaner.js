@@ -4,12 +4,12 @@ const FileUtils = require('./utils/FileUtils');
 const CommonUtils = require('./utils/CommonUtils');
 
 const dictionaryDirPath = path.join(__dirname,'./dictionaries');
-
+let dataCleaner = {};
 /**
  * TODO: "Za\'atar" , "Capers &amp; Green Olives"
  * 
  */
-const getTitleForRecipe = recipe => {
+dataCleaner.getTitleForRecipe = recipe => {
     // return recipe.name ? {title: recipe.name.unescape().replace("&amp;", "&")} : {};
     try {
         if(!recipe.name)
@@ -22,7 +22,7 @@ const getTitleForRecipe = recipe => {
     }
 }
 
-const getImageIdForRecipe = recipe => {
+dataCleaner.getImageIdForRecipe = recipe => {
     try {
         return {imageId: recipe.imageId};
     } catch (error) {
@@ -35,7 +35,7 @@ const getImageIdForRecipe = recipe => {
  * If no recipeYield return 2 other wise find the first word in string which is a number 
  * @param {*} recipeYield 
  */
-const getServingsForRecipe = (recipe) => {
+dataCleaner.getServingsForRecipe = (recipe) => {
     try {
         let servings;
         if(!recipe.recipeYield)
@@ -51,7 +51,7 @@ const getServingsForRecipe = (recipe) => {
     }
 }
 
-const getDatePublishedForRecipe = recipe => {
+dataCleaner.getDatePublishedForRecipe = recipe => {
     try {
         return { datePublished : recipe.datePublished ? moment(recipe.datePublished).format() : moment().format() }
     } catch (error) {
@@ -61,7 +61,7 @@ const getDatePublishedForRecipe = recipe => {
 }
 
 
-const reduceToMinutes = (timeStr) => {
+reduceToMinutes = (timeStr) => {
     let lastChar = timeStr[timeStr.length-1];
     let multiplier = 1;
     switch(lastChar){
@@ -78,7 +78,7 @@ const reduceToMinutes = (timeStr) => {
     return  timeStr.substring(0,timeStr.length-1) * multiplier;
 }
 
-const getReadyInMinutesForRecipe = (recipe) =>{  
+dataCleaner.getReadyInMinutesForRecipe = (recipe) =>{  
 
     try {
         let prepTime = recipe.prepTime;
@@ -122,16 +122,16 @@ const getReadyInMinutesForRecipe = (recipe) =>{
     }
 }
 
-const getSourceUrlForRecipe = recipe => {
+dataCleaner.getSourceUrlForRecipe = recipe => {
     try {
-        return recipe.url ? {url: recipe.url} : {};
+        return recipe.url ? {sourceUrl: recipe.url} : {};
     } catch (error) {
         console.log(`Error in ${getSourceUrlForRecipe.name} for recipe`, JSON.stringify(recipe));
         console.log(error);
     }
 };
 
-const getSourceForRecipe = recipe => {
+dataCleaner.getSourceForRecipe = recipe => {
     try {
         return recipe.source ? {source: recipe.source} : {};
     } catch (error) {
@@ -143,7 +143,7 @@ const getSourceForRecipe = recipe => {
 /**
  * Send array of cuisines.
  */
-const getCusineForRecipe = recipe => {
+dataCleaner.getCusineForRecipe = recipe => {
     try {
         const fileName = 'Cuisines.json';
         const data = FileUtils.loadFileContent(dictionaryDirPath,fileName);
@@ -155,7 +155,7 @@ const getCusineForRecipe = recipe => {
     }
 }
 
-const getDishTypeForRecipe = recipe => {
+dataCleaner.getDishTypeForRecipe = recipe => {
     try {
         const fileName = 'DishTypes.json';
         const data = FileUtils.loadFileContent(dictionaryDirPath,fileName);
@@ -167,7 +167,7 @@ const getDishTypeForRecipe = recipe => {
     }
 }
 
-const getIngredientsForRecipe = recipe => {
+dataCleaner.getIngredientsForRecipe = recipe => {
     try {
         const fileName = 'Ingredients.json';
         const data = FileUtils.loadFileContent(dictionaryDirPath,fileName);
@@ -180,15 +180,17 @@ const getIngredientsForRecipe = recipe => {
 }
 
 
-module.exports = {
-    getTitleForRecipe,
-    getImageIdForRecipe,
-    getServingsForRecipe,
-    getReadyInMinutesForRecipe,
-    getSourceUrlForRecipe,
-    getSourceForRecipe,
-    getDatePublishedForRecipe,
-    getCusineForRecipe,
-    getDishTypeForRecipe,
-    getIngredientsForRecipe,
-}
+// module.exports = {
+//     getTitleForRecipe: dataCleaner.getTitleForRecipe,
+//     getImageIdForRecipe,
+//     getServingsForRecipe,
+//     getReadyInMinutesForRecipe,
+//     getSourceUrlForRecipe,
+//     getSourceForRecipe,
+//     getDatePublishedForRecipe,
+//     getCusineForRecipe,
+//     getDishTypeForRecipe,
+//     getIngredientsForRecipe,
+// }
+
+module.exports = dataCleaner;
