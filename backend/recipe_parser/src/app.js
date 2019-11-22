@@ -1,5 +1,6 @@
 const dataCleaner = require('./DataCleaner');
 const inputRecipes = require('../assets/db.json');
+const FileUtils = require('./utils/FileUtils');
 
 // const getAllMethodsInDataCleaner = () => {
 //   Object.entries(DataCleaner).forEach(([key,value])=> console.log(key));
@@ -36,5 +37,18 @@ const generateCleanRecipe = (recipe) => {
   // const cleanRecipe = dataCleaner['getTitleForRecipe'](recipe);
   console.log(cleanRecipe); 
 }
+
+
+const generateCleanRecipes = () => {
+  const cleanRecipes = [];
+  inputRecipes.forEach((recipe) =>{
+    let cleanRecipe = {};
+    Object.entries(dataCleaner).forEach(([key,value])=>{
+      cleanRecipe = {...cleanRecipe, ...dataCleaner[key](recipe)}
+    });
+    cleanRecipes.push(cleanRecipe);
+  });
+  FileUtils.writeContentToFile('','clean_db.json',cleanRecipes);
+}
 // generateCleanRecipe(inputRecipes[0]);
-generateCleanReadyInMinutes();
+generateCleanRecipes();
