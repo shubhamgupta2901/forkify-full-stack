@@ -39,16 +39,31 @@ const generateCleanRecipe = (recipe) => {
 }
 
 
+console.log(FileUtils.getJSONSize('json'));
+
+/**
+* Read recipes from all the files in json directory.
+* For each recipe, perform all the functions written in DataCleaner to clean the recipe json,
+* Push all the clean recipes in an array and write in a file to seed.
+ */
 const generateCleanRecipes = () => {
+  const filesContent = FileUtils.getAllFilesData('json');
   const cleanRecipes = [];
-  inputRecipes.forEach((recipe) =>{
-    let cleanRecipe = {};
-    Object.entries(dataCleaner).forEach(([key,value])=>{
-      cleanRecipe = {...cleanRecipe, ...dataCleaner[key](recipe)}
-    });
-    cleanRecipes.push(cleanRecipe);
-  });
-  FileUtils.writeContentToFile('','clean_db.json',cleanRecipes);
+  filesContent.forEach(file=>{
+    const recipes = file.content.recipes;
+    recipes.forEach(recipe=>{
+      let cleanRecipe = {};
+      Object.entries(dataCleaner).forEach(([key,value])=>{
+        cleanRecipe = {...cleanRecipe,...dataCleaner[key](recipe)}
+      });
+      cleanRecipes.push(cleanRecipe);
+    })
+  })
+  FileUtils.writeContentToFile('','clean_db.json',{size: cleanRecipes.length, recipes: cleanRecipes });
 }
-// generateCleanRecipe(inputRecipes[0]);
+
 generateCleanRecipes();
+
+
+
+
