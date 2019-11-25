@@ -2,6 +2,7 @@ const moment = require('moment');
 const path = require('path');
 const FileUtils = require('./utils/FileUtils');
 const CommonUtils = require('./utils/CommonUtils');
+const fs = require('fs');
 
 const dictionaryDirPath = path.join(__dirname,'./dictionaries');
 let dataCleaner = {};
@@ -29,6 +30,17 @@ dataCleaner.getImageIdForRecipe = recipe => {
         console.log(`Error in ${getImageIdForRecipe.name} for recipe`, JSON.stringify(recipe));
         console.log(error);
     }
+}
+
+dataCleaner.getImageExtenstionForRecipe = recipe => {
+    const source = recipe.source;
+    const imageId = recipe.imageId;
+    const imagesDirectory = path.join(__dirname,`../assets/images/${source}`);
+    const files = fs.readdirSync(imagesDirectory);
+    const imageName = files.find(file=>file.includes(imageId));
+    const imageExtension = FileUtils.getFileExtension(imageName);
+    //console.log(imageId, imageName, imageExtension);
+    return {imageExtension} 
 }
 
 /**
@@ -172,13 +184,12 @@ dataCleaner.getIngredientsForRecipe = recipe => {
         const fileName = 'Ingredients.json';
         const data = FileUtils.loadFileContent(dictionaryDirPath,fileName);
         const randomIngredientArray = data.content[CommonUtils.generateRandomNumber(data.content.length)];
-        return {Ingredients: randomIngredientArray};
+        return {ingredients: randomIngredientArray};
     } catch (error) {
         console.log(`Error in ${getIngredientsForRecipe.name} for recipe`, JSON.stringify(recipe));
         console.log(error);
     }
 }
-
 
 // module.exports = {
 //     getTitleForRecipe: dataCleaner.getTitleForRecipe,

@@ -1,0 +1,54 @@
+{
+  "title": "Morrocan Carrot and Chickpea Salad",
+  "imageId": "image_5160756f96cc6207a37ff777",
+  "imageExtension": "jpg",
+  "servings": 2,
+  "datePublished": "2013-01-07T00:00:00+05:30",
+  "readyInMinutes": 15,
+  "sourceUrl": "http://www.101cookbooks.com/archives/moroccan-carrot-and-chickpea-salad-recipe.html",
+  "source": "101cookbooks",
+  "cuisines": [
+    "middle eastern"
+  ],
+  "dishTypes": [
+    "dessert"
+  ],
+  "ingredients": [
+    {
+      "quantity": "2",
+      "unit": "tablespoon",
+      "ingredient": "Paprika oil",
+      "originalIngredient": "2 tbsp Paprika oil"
+    },
+    {
+      "quantity": "0.5",
+      "unit": "cup",
+      "ingredient": "extra virgin olive oil",
+      "originalIngredient": "1/2 cup extra virgin olive oil"
+    },
+    {
+      "quantity": "1",
+      "unit": "clove",
+      "ingredient": "of garlic, crushed",
+      "originalIngredient": "1 clove of garlic, crushed"
+    },
+    {
+      "quantity": "1",
+      "unit": "tablespoon",
+      "ingredient": "bittersweet paprika",
+      "originalIngredient": "1 Tablespoon bittersweet paprika"
+    },
+    {
+      "quantity": "1",
+      "unit": "teaspoon",
+      "ingredient": "sweet smoked paprika",
+      "originalIngredient": "1 teaspoon sweet smoked paprika"
+    },
+    {
+      "quantity": "2",
+      "unit": "tablespoon",
+      "ingredient": "Cumin oil:",
+      "originalIngredient": "2 tbsp Cumin oil:"
+    }
+  ]
+}
