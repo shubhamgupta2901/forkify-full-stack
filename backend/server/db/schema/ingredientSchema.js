@@ -9,7 +9,7 @@ let ingredientSchema = new Schema({
     },
     unit:{
         type: String,
-        required: true,
+        required: false,
     },
     ingredient:{
         type: String,

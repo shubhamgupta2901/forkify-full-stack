@@ -18,11 +18,11 @@ let publisherSchema = new Schema({
     timestamps: true,
 });
 
-publisherSchema.pre('save', async function (next){
-    let publisher = this;
-    console.log('Mongoose middleware: pre publisher save');
-    console.log(publisher);
-    next();
-})
+// publisherSchema.pre('save', async function (next){
+//     let publisher = this;
+//     console.log('Mongoose middleware: pre publisher save');
+//     console.log(publisher);
+//     next();
+// })
 
 module.exports = publisherSchema;
