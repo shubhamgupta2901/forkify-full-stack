@@ -8,11 +8,13 @@ let recipeSchema = new Schema({
         required: true,
         trim: true,
     },
-    imageUrl: {
+    imageId: {
         type: String,
-        required: false,
-        trim: true,
-        validate: (value) => validator.isURL(value),
+        required: true,
+    },
+    imageExtension:{
+        type: String,
+        required: true,
     },
     servings: {
         type: Number,
