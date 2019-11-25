@@ -5,7 +5,7 @@ let Schema = mongoose.Schema;
 let ingredientSchema = new Schema({
     quantity:{
         type: Number,
-        required: true,
+        required: false,
     },
     unit:{
         type: String,
@@ -17,7 +17,7 @@ let ingredientSchema = new Schema({
     },
     originalIngredient:{
         type: String, 
-        required: true,
+        required: false,
     }
 });
 
