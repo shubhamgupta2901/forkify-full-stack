@@ -19,6 +19,7 @@ let ingredientSchema = new Schema({
         type: String, 
         required: false,
     }
-});
+},{ _id : false });
+
 
 module.exports = ingredientSchema;
