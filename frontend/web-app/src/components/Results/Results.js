@@ -46,10 +46,11 @@ class Results extends React.Component {
                 {...this.props}
                 active = {recipe.recipe_id===this.props.currentRecipeId}
                 key = {Utils.generateRandomId()}
-                recipeId = {recipe.recipe_id}
+                recipeId = {recipe._id}
                 recipeName = {recipe.title}
-                imageUrl={recipe.image_url}
-                publisherName={recipe.publisher}
+                imageUrl={recipe.imageUrl}
+                publisherName={recipe.publisher.name}
+                onResultClick={this.props.onResultClick}
             />);
         })
         return (

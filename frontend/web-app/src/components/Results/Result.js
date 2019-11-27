@@ -28,9 +28,10 @@ const getClassName = (active) =>{
         className = className.concat(' results__link--active');
     return className;
 }
+
 const result = (props) =>{
     return(
-        <li>
+        <li onClick={()=>props.onResultClick(props.recipeId)}>
             <a className={getClassName(props.active)} href={`#${props.recipeId}`}>
                 <figure className="results__fig">
                     <img src={props.imageUrl} alt="Recipe"/>

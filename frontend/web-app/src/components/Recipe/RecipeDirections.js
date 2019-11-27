@@ -8,9 +8,9 @@ const recipeDirections = (props) => {
             <h2 className="heading-2">How to cook it</h2>
             <p className="recipe__directions-text">
                 This recipe was carefully designed and tested by
-                <span className="recipe__by">The Pioneer Woman</span>. Please check out directions at their website.
+                <span className="recipe__by">{props.recipe.publisher.name}</span>. Please check out directions at their website.
             </p>
-            <a className="btn-small recipe__btn" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" >
+            <a className="btn-small recipe__btn" href={props.recipe.sourceUrl} >
                 <span>Directions</span>
                 <SVGIcon className="search__icon" name="triangle-right"/>
             </a>

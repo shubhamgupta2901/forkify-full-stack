@@ -7,15 +7,10 @@ import * as Utils from '../../utils/Utils';
 class RecipeIngredients extends React.Component  {
     
     renderIngredients =()=>{
-        const ingredients = []
-        for(let i =0; i<6; i++){
-            ingredients.push(<RecipeIngredient
-                key = {Utils.generateRandomId()}
-            />)
-        }
+        const recipeIngredients = this.props.recipe.ingredients.map(ingredient=> (<RecipeIngredient key={Utils.generateRandomId()} ingredient={ingredient}/>));
         return(
             <ul className="recipe__ingredient-list">
-                {ingredients}
+                {recipeIngredients}
             </ul>
         );
     }

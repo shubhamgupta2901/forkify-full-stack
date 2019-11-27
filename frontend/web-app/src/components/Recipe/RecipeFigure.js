@@ -5,9 +5,9 @@ import testImage from '../../assets/test-1.jpg';
 const recipeFigure = (props) => {
     return(
         <figure className="recipe__fig">
-            <img src={testImage} alt="Tomato" className="recipe__img"/>
+            <img src={props.recipe.imageUrl} alt={props.recipe.title} className="recipe__img"/>
             <h1 className="recipe__title">
-                <span>Pasta with tomato cream sauce</span>
+                <span>{props.recipe.title}</span>
             </h1>
         </figure>
     );

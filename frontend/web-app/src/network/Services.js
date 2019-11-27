@@ -1,16 +1,17 @@
 import axios from 'axios';
 
-const BASE_URL = "https://www.food2fork.com/api/";
-const API_KEY = "767de86f8ea74854742098dacb4e2271"
+const BASE_URL = "http://127.0.0.1:3000";
 
 export const searchRecipes = async (query) =>{
-    const URL = `${BASE_URL}/search?key=${API_KEY}&q=${query}`;
+    const URL = `${BASE_URL}/recipes?search=${query}`;
+    console.log('searchRecipes',URL);
     try{
         const response = await axios.get(URL);
         const recipes = response.data.recipes;
+        console.log('searchRecipes',recipes);
         return recipes;
     }catch(error){
-        console.log(error);
+        console.log(error.message);
         return null;
     }
 }
@@ -42,10 +43,10 @@ export const searchRecipes = async (query) =>{
 }
  */
 export const getRecipe = async (recipeId) => {
-    const URL = `${BASE_URL}get?key=${API_KEY}&&rId=${recipeId}`
+    const URL = `${BASE_URL}/recipes/${recipeId}/information`
     try{
         const response = await axios.get(URL);
-        return response.recipe;
+        return response.data;
     }catch(error){
         console.log(error)
         return null;

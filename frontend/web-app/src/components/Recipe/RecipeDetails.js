@@ -7,12 +7,12 @@ const recipeDetails = (props) => {
         <div className="recipe__details">
             <div className="recipe__info">
                 <SVGIcon className="recipe__info-icon" name="stopwatch"/>
-                <span className="recipe__info-data recipe__info-data--minutes">45</span>
+                <span className="recipe__info-data recipe__info-data--minutes">{props.recipe.readyInMinutes}</span>
                 <span className="recipe__info-text"> minutes</span>
             </div>
             <div className="recipe__info">
                 <SVGIcon className="recipe__info-icon" name="man"/>
-                <span className="recipe__info-data recipe__info-data--people">4</span>
+                <span className="recipe__info-data recipe__info-data--people">{props.recipe.servings}</span>
                 <span className="recipe__info-text"> servings</span>
 
                 <div className="recipe__info-buttons">

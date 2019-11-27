@@ -5,6 +5,8 @@ import Results from '../components/Results/Results'
 import Recipe from '../components/Recipe/Recipe';
 import Shopping from '../components/Shopping/Shopping';
 import * as NetworkService from '../network/Services'; 
+import Signin from '../components/Signin';
+import Signup from '../components/Signup';
 
 class App extends React.Component {
   
@@ -12,8 +14,9 @@ class App extends React.Component {
     super(props);
     this.state = {
       isSearching: false,
+      isRecipeLoading: true,
       recipes:[],
-      currentRecipe: {}
+      currentRecipe: null,
     }
   }
 
@@ -27,9 +30,11 @@ class App extends React.Component {
   }
 
   onResultClick = async (recipeId) => {
+    this.setState({isRecipeLoading: true});
     const currentRecipe = await NetworkService.getRecipe(recipeId);
+    this.setState({isRecipeLoading:false,currentRecipe});
     console.log(currentRecipe);
-    this.setState({currentRecipe});
+    // this.setState({currentRecipe});
   }
 
   render(){
@@ -41,9 +46,8 @@ class App extends React.Component {
           recipes = {this.state.recipes}
           onResultClick = {(recipeId) =>this.onResultClick(recipeId)}
         />
-        <Recipe/>
+        <Recipe isLoading = {this.state.isRecipeLoading} recipe={this.state.currentRecipe}/>
         <Shopping/>
-        
       </div>
     );
   }

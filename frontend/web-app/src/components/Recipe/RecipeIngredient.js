@@ -6,10 +6,10 @@ const recipeIngredient = (props) => {
     return(
         <li className="recipe__item">
             <SVGIcon className="recipe__icon" name="check"/> 
-            <div className="recipe__count">1</div>
+            <div className="recipe__count">{props.ingredient.quantity}</div>
             <div className="recipe__ingredient">
-                <span className="recipe__unit"></span>
-                can of tomatoes, whole or crushed
+                <span className="recipe__unit">{props.ingredient.unit}</span>
+                 {` ${props.ingredient.ingredient}`}
             </div>
         </li>
     );
