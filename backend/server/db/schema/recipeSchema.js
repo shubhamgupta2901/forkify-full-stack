@@ -65,6 +65,8 @@ let recipeSchema = new Schema({
 },{
     timestamps: true
 });
+//Indexing title field in schema for search.
+recipeSchema.index({title: 'text'});
 
 recipeSchema.methods.toJSON = function () {
     const recipe = this;

@@ -15,11 +15,11 @@ router.post('/recipes',async(request,response)=>{
 })
 
 router.get('/recipes',async (request,response)=>{
-    const {recipes, error} = await recipeService.getRecipes(request.params);
+    const {recipes, error} = await recipeService.getRecipes(request.query);
     if(error){
         response.status(500).send({error: error.message});
     }
-    response.status(200).send(recipes);
+    response.status(200).send({size: recipes.length,recipes});
 });
 
 router.get('/recipes/:id/information',(request,response)=>{
