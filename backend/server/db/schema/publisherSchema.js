@@ -17,6 +17,11 @@ let publisherSchema = new Schema({
 },{
     timestamps: true,
 });
+// publisherSchema.virtual('recipes',{
+//     ref:'recipes',
+//     localField: '_id',
+//     foreignField: 'publisher',
+// })
 
 // publisherSchema.pre('save', async function (next){
 //     let publisher = this;
@@ -24,5 +29,14 @@ let publisherSchema = new Schema({
 //     console.log(publisher);
 //     next();
 // })
+
+// publisherSchema.methods.toJSON = function () {
+//     const publisher = this;
+//     const publisherObject = publisher.toObject();
+//     delete publisherObject.createdAt;
+//     delete publisherObject.updatedAt;
+//     delete publisherObject.__v;
+//     return publisherObject;
+// }
 
 module.exports = publisherSchema;

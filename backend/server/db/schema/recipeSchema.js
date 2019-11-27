@@ -29,7 +29,7 @@ let recipeSchema = new Schema({
     publisher: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: 'Publisher',
+        ref: 'publishers',
     },
     sourceUrl: {
         type: String,
@@ -66,4 +66,22 @@ let recipeSchema = new Schema({
     timestamps: true
 });
 
+recipeSchema.methods.toJSON = function () {
+    const recipe = this;
+    const recipeObject = recipe.toObject();
+    recipeObject.imageUrl = `https://forkify-recipes.s3.ap-south-1.amazonaws.com/images/recipes/${recipeObject.imageId}.${recipeObject.imageExtension}`;
+    delete recipeObject.aggregateBookmarks;
+    delete recipeObject.imageId;
+    delete recipeObject.imageExtension;
+    delete recipeObject.createdAt;
+    delete recipeObject.updatedAt;
+    delete recipeObject.__v;
+
+    if(recipeObject.publisher){
+        delete recipeObject.publisher.createdAt;
+        delete recipeObject.publisher.updatedAt;
+        delete recipeObject.publisher.__v;
+    }
+    return recipeObject;
+}
 module.exports = recipeSchema;
