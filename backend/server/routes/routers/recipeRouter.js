@@ -22,9 +22,10 @@ router.get('/recipes',async (request,response)=>{
     response.status(200).send({size: recipes.length,recipes});
 });
 
-router.get('/recipes/:id/information',(request,response)=>{
+router.get('/recipes/:id/information',async (request,response)=>{
     const id = request.params.id;
-    response.status(200).send(id);
+    const res = await recipeService.getRecipeInformation(id);
+    response.status(200).send(res);
 });
 
 router.get('/recipes/random',(request,response)=>{
