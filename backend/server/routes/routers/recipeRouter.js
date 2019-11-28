@@ -15,11 +15,22 @@ router.post('/recipes',async(request,response)=>{
 })
 
 router.get('/recipes',async (request,response)=>{
-    const {recipes, error} = await recipeService.getRecipes(request.query);
-    if(error){
-        response.status(500).send({error: error.message});
+    let {search = undefined,offset = 0, number = 10} = request.query;
+    number = number > 20 ? 20 : number;
+    const mongoQuery = {};
+    search? mongoQuery.$text = { $search: search}: null;
+    try {
+        const totalResults = await Recipe.countDocuments(mongoQuery);
+        const recipes = await Recipe.find(mongoQuery).skip(parseInt(offset)).limit(parseInt(number)).populate('publisher');
+        return response.status(200).send({
+            offset: parseInt(offset), 
+            number:recipes.length,
+            totalResults,
+            results: recipes
+        })
+    } catch (error) {
+        return response.status(500).send({error: error.message});
     }
-    response.status(200).send({size: recipes.length,recipes});
 });
 
 router.get('/recipes/:id/information',async (request,response)=>{
