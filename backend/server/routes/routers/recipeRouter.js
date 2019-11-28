@@ -15,16 +15,17 @@ router.post('/recipes',async(request,response)=>{
 })
 
 router.get('/recipes',async (request,response)=>{
-    let {search = undefined,offset = 0, number = 10} = request.query;
-    number = number > 20 ? 20 : number;
+    let {search = undefined,page = 1, pageSize = 10} = request.query;
+    pageSize = pageSize > 20 ? 20 : pageSize;
     const mongoQuery = {};
     search? mongoQuery.$text = { $search: search}: null;
     try {
         const totalResults = await Recipe.countDocuments(mongoQuery);
-        const recipes = await Recipe.find(mongoQuery).skip(parseInt(offset)).limit(parseInt(number)).populate('publisher');
+        const recipes = await Recipe.find(mongoQuery).skip((page-1)*pageSize).limit(parseInt(pageSize)).populate('publisher');
         return response.status(200).send({
-            offset: parseInt(offset), 
-            number:recipes.length,
+            page: parseInt(page), 
+            pageSize: parseInt(pageSize),
+            numResults: recipes.length,
             totalResults,
             results: recipes
         })
