@@ -4,9 +4,8 @@ import Header from '../components/Header/Header';
 import Results from '../components/Results/Results'
 import Recipe from '../components/Recipe/Recipe';
 import Shopping from '../components/Shopping/Shopping';
+import * as AppConfig from '../utils/AppConfig';
 import * as NetworkService from '../network/Services'; 
-import Signin from '../components/Signin';
-import Signup from '../components/Signup';
 
 class App extends React.Component {
   
@@ -15,17 +14,17 @@ class App extends React.Component {
     this.state = {
       isSearching: false,
       isRecipeLoading: true,
-      recipes:[],
+      searchResult:null,
       currentRecipe: null,
     }
   }
 
-  onRecipeSearch = async (key) =>{
+  onRecipeSearch = async (searchKey,page=1) =>{
     this.setState({isSearching: true})
-    const recipes = await NetworkService.searchRecipes(key);
+    const searchResult = await NetworkService.searchRecipes(searchKey,page,AppConfig.recipeResultsPerPage);
     this.setState({
       isSearching:false,
-      recipes
+      searchResult
     })
   }
 
@@ -34,17 +33,20 @@ class App extends React.Component {
     const currentRecipe = await NetworkService.getRecipe(recipeId);
     this.setState({isRecipeLoading:false,currentRecipe});
     console.log(currentRecipe);
-    // this.setState({currentRecipe});
   }
 
   render(){
     return (
       <div className={styles.container}>
-        <Header onRecipeSearch = {(key) => {this.onRecipeSearch(key)}}/>
+        <Header onRecipeSearch = {(searchKey) => {
+          this.setState({searchKey})
+          this.onRecipeSearch(searchKey);
+        }}/>
         <Results 
           isSearching={this.state.isSearching}
-          recipes = {this.state.recipes}
+          searchResult = {this.state.searchResult}
           onResultClick = {(recipeId) =>this.onResultClick(recipeId)}
+          onPageChange ={(page)=>this.onRecipeSearch(this.state.searchKey,page)}
         />
         <Recipe isLoading = {this.state.isRecipeLoading} recipe={this.state.currentRecipe}/>
         <Shopping/>

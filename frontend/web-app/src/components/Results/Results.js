@@ -7,70 +7,52 @@ import * as Utils from '../../utils/Utils';
 import * as AppConfig from '../../utils/AppConfig';
 import Loader from '../Loader';
 
-/**
-    {
-      "publisher": "Jamie Oliver",
-      "f2f_url": "http://food2fork.com/view/0063b5",
-      "title": "Simple baked lasagne",
-      "source_url": "http://www.jamieoliver.com/recipes/beef-recipes/simple-baked-lasagne",
-      "recipe_id": "0063b5",
-      "image_url": "http://static.food2fork.com/492_1_1350907030_lrga138.jpg",
-      "social_rank": 99.99981883037542,
-      "publisher_url": "http://www.jamieoliver.com"
-    }
- */
 class Results extends React.Component {
 
     constructor(props){
         super(props);
         this.state = {
-            currentPage: 1
+            
         }
     }
-
-    onPageButtonClicked = (type) =>{
-        if(type === 'prev')
-            this.setState((prevState)=>({currentPage: prevState.currentPage-1}))
-        else if(type === 'next')
-            this.setState((prevState)=>({currentPage: prevState.currentPage+1}))
+    
+    renderResults = () => {
+        if(this.props.searchResult){
+            const recipes = this.props.searchResult.results;
+            const resultsToDisplay = recipes.map(recipe => (
+                <Result
+                    {...this.props}
+                    active = {recipe.recipe_id===this.props.currentRecipeId}
+                    key = {recipe._id}
+                    recipeId = {recipe._id}
+                    recipeName = {recipe.title}
+                    imageUrl={recipe.imageUrl}
+                    publisherName={recipe.publisher.name}
+                    onResultClick={this.props.onResultClick}
+                />
+            ))
+            return (
+                <ul className="results__list">
+                    {resultsToDisplay}
+                </ul>
+            );
+        }
+        return null;
     }
     
-    renderResults = (recipes,pageNumber = 1,resultsPerPage = AppConfig.recipeResultsPerPage) => {
-        const startIndex = (pageNumber-1)*resultsPerPage;
-        const endIndex = pageNumber*resultsPerPage;
-        const recipesToDisplay = recipes.slice(startIndex,Math.min(recipes.length,endIndex));   
-        
-        const results = [];  
-        recipesToDisplay.forEach(recipe =>{
-            results.push(<Result
-                {...this.props}
-                active = {recipe.recipe_id===this.props.currentRecipeId}
-                key = {Utils.generateRandomId()}
-                recipeId = {recipe._id}
-                recipeName = {recipe.title}
-                imageUrl={recipe.imageUrl}
-                publisherName={recipe.publisher.name}
-                onResultClick={this.props.onResultClick}
-            />);
-        })
-        return (
-            <ul className="results__list">
-                {results}
-            </ul>
-        );
-    }
-
-    renderPageButtons = (recipes, currentPage, resultsPerPage ) => {
-
-        const hasPreviousPage = currentPage>1;
-        const hasNextPage = (currentPage*resultsPerPage)< recipes.length;
-
-        return(
-            <div className="results__pages">    
-                {hasPreviousPage && <PageButton type={"prev"} page={currentPage-1} onClick={(type)=>this.onPageButtonClicked(type)}/>}
-                {hasNextPage && <PageButton type={"next"} page={currentPage+1} onClick={(type)=>this.onPageButtonClicked(type)}/>}
-            </div>
-        );
+    renderPageButtons = () => {
+        const {searchResult, onPageChange} = this.props;
+        if(searchResult){
+            const hasPreviousPage = searchResult.page >1;
+            const hasNextPage = (searchResult.page*searchResult.pageSize) < searchResult.totalResults;
+            return(
+                <div className="results__pages">    
+                    {hasPreviousPage && <PageButton type={"prev"} page={searchResult.page-1} onClick={(type)=>onPageChange(searchResult.page-1)}/>}
+                    {hasNextPage && <PageButton type={"next"} page={searchResult.page+1} onClick={(type)=>onPageChange(searchResult.page+1)}/>}
+                </div>
+            );
+        }
+        return null; 
     }
 
     renderResultComponents = () => {
@@ -78,13 +60,16 @@ class Results extends React.Component {
             return <Loader/>;
         return (
             <div>
-                {this.renderResults(this.props.recipes,this.state.currentPage,AppConfig.recipeResultsPerPage)}
-                {this.renderPageButtons(this.props.recipes, this.state.currentPage, AppConfig.recipeResultsPerPage)}
+                {/* {this.renderResults(this.props.recipes,this.state.currentPage,AppConfig.recipeResultsPerPage)} */}
+                {/* {this.renderPageButtons(this.props.recipes, this.state.currentPage, AppConfig.recipeResultsPerPage)} */}
+                {this.renderResults()}
+                {this.renderPageButtons()}
             </div> 
         )
     }
 
     render() {
+        console.log('Results', JSON.stringify(this.props.searchResult));
         return(
             <div className="results">
                 {this.renderResultComponents()}
