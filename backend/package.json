@@ -12,7 +12,7 @@
   "author": "Shubham Gupta",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.566.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt": "^3.0.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
