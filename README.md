@@ -9,7 +9,8 @@ A full stack project to browse recipes. Backend is written using Node.js, web ap
 ![](https://github.com/shubhamgupta2901/forkify/blob/master/screenshots/forkify-screenshot.png "")
 
 
-A template for a fullstack javascript application, inspired by [this](https://github.com/atulmy/fullstack-javascript-architecture) repo. The folder structure is experimental and quite opinionated, but serves well for my purposes.
+
+Template for a fullstack javascript application, inspired by [this](https://github.com/atulmy/fullstack-javascript-architecture) repo. The folder structure is experimental and quite opinionated, but serves well for my purposes.
 
 
 The overall idea is to provide a micro platform-as-a-service, using a system design like this:
